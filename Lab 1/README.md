@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\***COLLABORATORS: wjr83 [GitHub Page](https://github.com/wjr83/Interactive-Lab-Hub)
+\*\***COLLABORATORS: William Reid Hernandez wjr83 [GitHub Page](https://github.com/wjr83/Interactive-Lab-Hub)
 **\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
@@ -172,10 +172,10 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 Costume #1 & #2:
-![image](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/2d3b5775-eb0f-480a-8dc2-8931a5e51ebd)
+![image]()
 
 Costume #3: A student ID or work ID will flash a decibel color according to the ambient noise loudness measured.
-![image_6487327](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/0d0a3cc9-68a5-4f74-9540-009e941d8295)
+![IMG_](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/0d0a3cc9-68a5-4f74-9540-009e941d8295)
 
 \*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
 Hospital systems have programs that require doctors exposed to radiation to wear dosimeters. These dosimeters are devices that measure and record the amount of radiation a person receives over time. They are mandated by state and federal regulations, particularly when someone is likely to receive over 10% of the maximum permissible dose. In a hospital setting, these dosimeters often resemble badges and go unnoticed by most people who are unfamiliar with the technology.

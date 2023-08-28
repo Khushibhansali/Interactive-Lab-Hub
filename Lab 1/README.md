@@ -3,6 +3,7 @@
 # Staging Interaction
 
 \*\***NAME OF COLLABORATORS HERE**\*\*
+I worked with William Reid Hernandez on this project. Here's his repo for reference. (https://github.com/wjr83/Interactive-Lab-Hub/tree/Fall2023/Lab%201)
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -63,11 +64,16 @@ To stage an interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
+This interaction is present in big cities where there is ample sound. Generally, sound waves are present everywhere and are constantly amplifying. Subconsicously and consciously, these sound waves affect our health. This problem is known as noise pollution. Research(https://www.epa.gov/clean-air-act-overview/clean-air-act-title-iv-noise-pollution#:~:text=Noise%20pollution%20adversely%20affects%20the,sleep%20disruption%2C%20and%20lost%20productivity) indicates that noise pollution can result in hearing loss, exposure to loud noise can cause high blood pressure, heart disease, sleep disturbances, and stress. 
+
+
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
 _Activity:_ What is happening between the actors?
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+
+The purpose of this interaction is to mitigate the adverse effects of noise pollution on the human population. The following illustrations portray how the interactive device described below will alert the end user if exposed to unhealthy noise levels.
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 

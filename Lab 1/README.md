@@ -170,6 +170,22 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+Costume #1 & #2:
+![image](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/2d3b5775-eb0f-480a-8dc2-8931a5e51ebd)
+
+Costume #3: Student ID or Work ID will flash a decibel color according to the ambient noise loudness measured.
+![image_6487327](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/0d0a3cc9-68a5-4f74-9540-009e941d8295)
+
+**NOTE:** Water can damage all three of these costumes/devices if the noise pollution feature is turned on at the moment of water ingress.
+
+\*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
+- Hospital systems have programs where physicians exposed to radiation are required to wear dosimeters to help record total radiation over time. Dosimeters are devices that measure and record the amount of radiation a person receives. They are required by state and federal regulations if someone is likely to receive more than 10% of the maximum permissible dose. Dosimeters in the hospital setting usually look like badges and these pass by unnoticed by most who are unaware of this technology.
+> - Costume #3 shown above was inspired by thinking exclusively about dosimeters used by interventional radiologists. It was also my intention to incorporate the decibel sensor into everyday objects, such that the end-user will carry this interactive noise sensor device at all times without having to remember to grab it. Objects that we usually carry on our daily routines are:
+> > - A watch (costume #1)
+> > - Keys (this inspired the keychain of costume #2)
+> > - A student ID or work badge (costume #3)
+
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 

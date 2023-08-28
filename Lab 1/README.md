@@ -189,6 +189,8 @@ The third costume shown above was designed with a focus on dosimeters used by in
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+I attribute the filming and prototyping to my partner William Reid. 
+
 Activity: Yoga
   - Video Link: https://drive.google.com/file/d/14k7-33IXaVQNuokcsFP2Fs-GepLb_jVg/view?usp=sharing
 

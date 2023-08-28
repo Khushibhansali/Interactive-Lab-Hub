@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\***COLLABORATORS: wjr83 [GitHub Page]([https://github.com/wjr83/Interactive-Lab-Hub])**\*\*
+\*\***COLLABORATORS: wjr83 [GitHub Page](https://github.com/wjr83/Interactive-Lab-Hub)
 **\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
@@ -64,7 +64,7 @@ To stage an interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
-This interaction is present in big cities where there is ample sound. Generally, sound waves are present everywhere and are constantly amplifying. Subconsciously and consciously, these sound waves affect our health. This problem is known as noise pollution. [Research](https://www.epa.gov/clean-air-act-overview/clean-air-act-title-iv-noise-pollution#:~:text=Noise%20pollution%20adversely%20affects%20the,sleep%20disruption%2C%20and%20lost%20productivity)indicates that noise pollution can result in hearing loss, exposure to loud noise can cause high blood pressure, heart disease, sleep disturbances, and stress. 
+This interaction is present in big cities where there is ample sound. Generally, sound waves are present everywhere and are constantly amplifying. Subconsciously and consciously, these sound waves affect our health. This problem is known as noise pollution. [Research](https://www.epa.gov/clean-air-act-overview/clean-air-act-title-iv-noise-pollution#:~:text=Noise%20pollution%20adversely%20affects%20the,sleep%20disruption%2C%20and%20lost%20productivity) indicates that noise pollution can result in hearing loss, exposure to loud noise can cause high blood pressure, heart disease, sleep disturbances, and stress. 
 
 
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
@@ -113,6 +113,8 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
+Users asked us to consider people with different physical abilties. For example, how would we accomodate the app so that a color-blind user might be informed of the degree of the noise pollution (minimal to severe) without being confused by the colors?
+
 
 ## Part B. Act out the Interaction
 
@@ -120,8 +122,14 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+Yes, we initially thought it would be more attentive to the changes in color while doing regular activities throughout the day. However, we recieve so many notifications throughout the day, it is hard to go through everything and remember to do everything. Additionally, some users prefer to minimize screentime as much as possible. Therefore, we think it would be an additional effort to constantly glance at the interactive device to verify whether the noise pollution we are exposed to exceeds the recommended upper limit. We have considered incorporating audio notifications but that defeats the purpose since calling the user's attention if the noise levels are close to reaching those that could cause further hearing damage. The device should make greater and greater efforts to alert the user if the noise level continues to intensify past the safe limits.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+We have considered notifying the user of an unhealthy increase in noise level through vibrations? Furthermore, we want to explorw how 
+an interactive device could also help mitigate the adverse consequences of noise pollution by dampening the noise pollution if the decibels measured exceed a certain threshold. For example, the Centers for Disease Control advises that prolonged exposure to noise above 70 dB starts to deteriorate one's hearing sensitivity. Additionally, noises above 120 dB result in immediate harm to the ears.
+
+Therefore, to reduce or eliminate harmful noise levels, the interactive device could generate anti-noise sounds to cancel or reduce the perceived noises of the environment.
 
 ## Part C. Prototype the device
 
@@ -135,6 +143,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Tinkerbelle was a realistically easy project to set up. However, I encountered some port and window incompatibility. The TA then instructed me to checkout the requirements.txt file from a previous commit 46fb9d2515af98816637e98d96228f7a9faba470 . 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 

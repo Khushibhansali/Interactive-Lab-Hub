@@ -2,8 +2,8 @@
 
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
-I worked with William Reid Hernandez on this project. Here's his repo for reference. (https://github.com/wjr83/Interactive-Lab-Hub/tree/Fall2023/Lab%201)
+\*\***COLLABORATORS: wjr83 ([GitHub Page]([https://github.com/wjr83/Interactive-Lab-Hub]))**\*\*
+**\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -64,12 +64,16 @@ To stage an interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
-This interaction is present in big cities where there is ample sound. Generally, sound waves are present everywhere and are constantly amplifying. Subconsicously and consciously, these sound waves affect our health. This problem is known as noise pollution. Research(https://www.epa.gov/clean-air-act-overview/clean-air-act-title-iv-noise-pollution#:~:text=Noise%20pollution%20adversely%20affects%20the,sleep%20disruption%2C%20and%20lost%20productivity) indicates that noise pollution can result in hearing loss, exposure to loud noise can cause high blood pressure, heart disease, sleep disturbances, and stress. 
+This interaction is present in big cities where there is ample sound. Generally, sound waves are present everywhere and are constantly amplifying. Subconsciously and consciously, these sound waves affect our health. This problem is known as noise pollution. [Research](https://www.epa.gov/clean-air-act-overview/clean-air-act-title-iv-noise-pollution#:~:text=Noise%20pollution%20adversely%20affects%20the,sleep%20disruption%2C%20and%20lost%20productivity)indicates that noise pollution can result in hearing loss, exposure to loud noise can cause high blood pressure, heart disease, sleep disturbances, and stress. 
 
 
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
+People who want to know the level of harm the sounds around them may cause to them. People surrounding this informed individual could also be warned and then make an informed decision about whether or not they want to tune out the noises around them. 
+
 _Activity:_ What is happening between the actors?
+
+An individual goes about his/her day carrying or wearing his interactive device. Over the span of the day, the interactive device samples ambient noise every 5 seconds and informs the individual on the level of noise pillution through a color display. 
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
@@ -84,6 +88,28 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 \*\***Include pictures of your storyboards here**\*\*
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+
+**Legend:** Noise level in decibels (dB) color-coded.
+
+<img width="550" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/a09dccee-5e2c-4027-89ea-6bc090b9ec4a">
+
+|Noise level measured at a yoga class: 5 dB. Recorded sounds: breathing.|Noise level measured on a calm day at the park: 30 dB. Recorded sounds: rustling of leaves, gentle breeze, birds chirping at a distance.|
+|:-:|:-:|
+|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/bb4ca914-8a35-494b-bbbd-4d3aae2ede61">|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/a46a0447-a9c7-4bb9-b1a7-e48938c18825">|
+
+|Noise level measured inside a car at 60mph, windows lowered: 60 dB|Noise level measured while using a lawn mower: 75 dB|
+|:-:|:-:|
+|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/16e226d3-b159-4d9b-9c88-16e255682a5f">|<img width="350" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/eca8b9e5-5916-4075-bc7b-376fd9a6861c">|
+
+|Noise level measured while using an electric chainsaw: 90 dB|Noise level measured near sirens (police car, firefighters, ambulance): 120 dB|
+|:-:|:-:|
+|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/683a1e3c-34c6-4295-a009-a28c6d8b5ce9">|<img width="350" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/5c907645-1c50-4bcb-ae28-19316d9f9f13">|
+
+|Noise level measured at a rock concert: 160 dB on stage (purple), 140 db first few rows (pink), 120 db at row 30 (red). | |
+|:-:|:-:|
+|<img width="600" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/b75cc68e-8f16-462d-92a7-f3c91dba3ac3">||
+
+
 
 \*\***Summarize feedback you got here.**\*\*
 

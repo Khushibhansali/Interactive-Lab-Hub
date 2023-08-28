@@ -127,9 +127,12 @@ Yes, we initially thought it would be more attentive to the changes in color whi
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
 We have considered notifying the user of an unhealthy increase in noise level through vibrations? Furthermore, we want to explorw how 
-an interactive device could also help mitigate the adverse consequences of noise pollution by dampening the noise pollution if the decibels measured exceed a certain threshold. For example, the Centers for Disease Control advises that prolonged exposure to noise above 70 dB starts to deteriorate one's hearing sensitivity. Additionally, noises above 120 dB result in immediate harm to the ears.
+an interactive device could also help mitigate the adverse consequences of noise pollution by dampening the noise pollution if the decibels measured exceed a certain threshold. For example, the Centers for Disease Control advises that prolonged exposure to noise above 70 dB starts to deteriorate one's hearing sensitivity. Additionally, noises above 120 dB result in immediate harm to the ears. Therefore, to reduce or eliminate harmful noise levels, the interactive device could generate anti-noise sounds to cancel or reduce the perceived noises of the environment.
 
-Therefore, to reduce or eliminate harmful noise levels, the interactive device could generate anti-noise sounds to cancel or reduce the perceived noises of the environment.
+Another teammate drew a storyboard of an air pollution sensor that could be designed in a similar way as the noise pollution sensor described. This could be incorpoted in future iterations where we add more features. Refer to the rough storyboard below of the air pollution interaction. **NOTE:** For the purposes of this lab, we will focus on the noise pollution interactive device.
+![new doc 2023-08-27 23 56 08_1](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/af997e92-0ff9-4edf-a384-0fb36c24d62a)
+
+
 
 ## Part C. Prototype the device
 
@@ -161,30 +164,20 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-\*\***Include sketches of what your devices might look like here.**\*\*
+Costume #1 & #2:
+![image](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/2d3b5775-eb0f-480a-8dc2-8931a5e51ebd)
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+Costume #3: A student ID or work ID will flash a decibel color according to the ambient noise loudness measured.
+![image_6487327](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/0d0a3cc9-68a5-4f74-9540-009e941d8295)
 
+\*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
+Hospital systems have programs that require doctors exposed to radiation to wear dosimeters. These dosimeters are devices that measure and record the amount of radiation a person receives over time. They are mandated by state and federal regulations, particularly when someone is likely to receive over 10% of the maximum permissible dose. In a hospital setting, these dosimeters often resemble badges and go unnoticed by most people who are unfamiliar with the technology.
+
+The third costume shown above was designed with a focus on dosimeters used by interventional radiologists. Additionally, the goal was to integrate a noise sensor into everyday objects so that users would naturally carry this interactive noise sensor without needing to remember it. Everyday items like a watch (as seen in costume #1), keys (inspiring the keychain of costume #2), and a student ID or work badge (featured in costume #3) were considered for this purpose.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
-
-Costume #1 & #2:
-![image](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/2d3b5775-eb0f-480a-8dc2-8931a5e51ebd)
-
-Costume #3: Student ID or Work ID will flash a decibel color according to the ambient noise loudness measured.
-![image_6487327](https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/0d0a3cc9-68a5-4f74-9540-009e941d8295)
-
-**NOTE:** Water can damage all three of these costumes/devices if the noise pollution feature is turned on at the moment of water ingress.
-
-\*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
-- Hospital systems have programs where physicians exposed to radiation are required to wear dosimeters to help record total radiation over time. Dosimeters are devices that measure and record the amount of radiation a person receives. They are required by state and federal regulations if someone is likely to receive more than 10% of the maximum permissible dose. Dosimeters in the hospital setting usually look like badges and these pass by unnoticed by most who are unaware of this technology.
-> - Costume #3 shown above was inspired by thinking exclusively about dosimeters used by interventional radiologists. It was also my intention to incorporate the decibel sensor into everyday objects, such that the end-user will carry this interactive noise sensor device at all times without having to remember to grab it. Objects that we usually carry on our daily routines are:
-> > - A watch (costume #1)
-> > - Keys (this inspired the keychain of costume #2)
-> > - A student ID or work badge (costume #3)
-
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 

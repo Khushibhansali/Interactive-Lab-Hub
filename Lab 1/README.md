@@ -156,7 +156,14 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+ 1st Attempt: Noise pollution sensor (Activity - Yoga)  
+ - Video Link: https://drive.google.com/file/d/1UcbLCNHmjGJeT0vCRg5s4n8qu7ObRPKA/view?usp=drive_link
 
+ 1st Attempt: Noise pollution sensor (Activity - Using a Vacuum Cleaner) 
+ - Video Link: https://drive.google.com/file/d/1i4UjSGp6NVlKe58aV6IBVzhrGstu32zD/view?usp=drive_link
+
+1st Attempt: Noise pollution sensor (Activity - Listening to Music) 
+ - Video Link: https://drive.google.com/file/d/1WFDPzasBbHPToe3-VWZr6nvbcHeq1Fxv/view?usp=drive_link
 
 ## Part E. Costume the device
 
@@ -182,7 +189,14 @@ The third costume shown above was designed with a focus on dosimeters used by in
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+Activity: Yoga
+  - Video Link: https://drive.google.com/file/d/14k7-33IXaVQNuokcsFP2Fs-GepLb_jVg/view?usp=sharing
 
+ Activity: Using a Vacuum Cleaner
+ - Video Link: https://drive.google.com/file/d/1_s5cAzFF7Y-wo7EVkC407lNMoD9x8AHf/view?usp=drive_link
+
+  Activity: Listening to Music
+ - Video Link: https://drive.google.com/file/d/1E6vMMqZUP1CwLoogb5-c1ipOq8aPnDYs/view?usp=drive_link
 
 # Staging Interaction, Part 2 
 

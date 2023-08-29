@@ -91,7 +91,7 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 **Legend:** Noise level in decibels (dB) color-coded.
 
-<img width="550" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/a09dccee-5e2c-4027-89ea-6bc090b9ec4a">
+<img width="550" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/d1cc195d-44f9-47c9-b0aa-42948e7498b7">
 
 |Noise level measured at a yoga class: 5 dB. Recorded sounds: breathing.|Noise level measured on a calm day at the park: 30 dB. Recorded sounds: rustling of leaves, gentle breeze, birds chirping at a distance.|
 |:-:|:-:|
@@ -105,7 +105,7 @@ Present your ideas to the other people in your breakout room (or in small groups
 |:-:|:-:|
 |<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/683a1e3c-34c6-4295-a009-a28c6d8b5ce9">|<img width="350" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/5c907645-1c50-4bcb-ae28-19316d9f9f13">|
 
-|Noise level measured at a rock concert: 160 dB on stage (purple), 140 db first few rows (pink), 120 db at row 30 (red). | |
+|Noise level measured at a rock concert: 140 dB on stage (dark purple), 130 dB first few rows (light purple), 120 dB at row 30 (red).|
 |:-:|:-:|
 |<img width="600" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/b75cc68e-8f16-462d-92a7-f3c91dba3ac3">||
 

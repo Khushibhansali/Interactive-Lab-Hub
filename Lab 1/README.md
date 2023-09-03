@@ -199,16 +199,110 @@ Activity: Yoga
   Activity: Listening to Music
  - Video Link: https://drive.google.com/file/d/1E6vMMqZUP1CwLoogb5-c1ipOq8aPnDYs/view?usp=drive_link
 
-# Staging Interaction, Part 2 
-
-This describes the second week's work for this lab activity.
-
 
 ## Prep (to be done before Lab on Wednesday)
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+
+- **Noise Level Warning Features:**
+  - Buzz/vibration for noise level warnings.
+  - Explore multiple ideas beyond noise pollution awareness.
+
+- **Alternative Implementations:**
+  - Monitor health indicators like lung/throat/voice health.
+  - Track a singer's practice progress with a tune detector.
+  - Consider cumulative noise exposure data.
+  - Set reminders for annual audiology checks.
+
+- **Design Considerations:**
+  - Explore creative and customized designs.
+  - Implement on earphones' cases.
+  - Explore device connectivity with smartphones when using headphones.
+  
+- **Charging and Manual Adjustments:**
+  - Investigate charging options (solar or motion).
+  - Allow manual adjustment for post-earplug noise levels.
+
+- **Differentiation and Utility:**
+  - Differentiate device warnings from phone pop-up notifications.
+  - Explore ways the device can enhance people's lives.
+
+- **Accessibility Features:**
+  - Consider adding text notifications for color-blind individuals.
+    
+- **Detectable Pollutions:**
+  - Explore the potential for detecting other types of pollution (e.g., light pollution affecting star visibility).
+  - 
+# Staging Interaction, Part 2 
+
+## Part A. Plan 
+\*\***Include pictures of your storyboards here**\*\*
+
+Storyboard #1:  
+ - Setting: Grocery store or supermarket.
+ - Players: People who are shopping, kids, the supermarket workers, and people surrounding the shoppers whose opinions could be influenced as a result of the "Nutriscore Companion". 
+ - Activity: An individual wears the "Nutriscore Companion" device on their wrist. They can scan an item they are interested in purchasing. "Nutriscore Companion" will tell them how safe/healthy/chemical free the item is. "Nutriscore Companion" will give the user a ranking of A being the healthiest to E being the unhealthiest. In the example storyboard, when the user scanned the bottle of deoderant, a list of ingredients revealed talcum powder which typically has traces of asbestos and was therefore given a ranking of E and a red screen was displayed on the "Nutriscore Companion" device. 
+ - Goals: To help shoppers purchase items that are safe, healthy, and chemical free.
+![image](https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery.jpg){ width=250px height=250px }
+![image](https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery2.jpg){ width=250px height=250px }
+
+Storyboard #2:  
+ - Setting:
+ - Players:
+ - Activity:
+ - Goals:
+   
+Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+
+_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+
+This interaction is present in big cities where there is ample sound. Generally, sound waves are present everywhere and are constantly amplifying. Subconsciously and consciously, these sound waves affect our health. This problem is known as noise pollution. [Research](https://www.epa.gov/clean-air-act-overview/clean-air-act-title-iv-noise-pollution#:~:text=Noise%20pollution%20adversely%20affects%20the,sleep%20disruption%2C%20and%20lost%20productivity) indicates that noise pollution can result in hearing loss, exposure to loud noise can cause high blood pressure, heart disease, sleep disturbances, and stress. 
+
+
+_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+
+People who want to know the level of harm the sounds around them may cause to them. People surrounding this informed individual could also be warned and then make an informed decision about whether or not they want to tune out the noises around them. 
+
+_Activity:_ What is happening between the actors?
+
+An individual goes about his/her day carrying or wearing his interactive device. Over the span of the day, the interactive device samples ambient noise every 5 seconds and informs the individual on the level of noise pillution through a color display. 
+
+_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+
+The purpose of this interaction is to mitigate the adverse effects of noise pollution on the human population. The following illustrations portray how the interactive device described below will alert the end user if exposed to unhealthy noise levels.
+
+The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+
+\*\***Describe your setting, players, activity and goals here.**\*\*
+
+Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+
+\*\***Include pictures of your storyboards here**\*\*
+
+Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+
+**Legend:** Noise level in decibels (dB) color-coded.
+
+<img width="550" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/d1cc195d-44f9-47c9-b0aa-42948e7498b7">
+
+Noise level measured at a yoga class: 5 dB. Recorded sounds: breathing.|Noise level measured on a calm day at the park: 30 dB. Recorded sounds: rustling of leaves, gentle breeze, birds chirping at a distance.
+|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/bb4ca914-8a35-494b-bbbd-4d3aae2ede61">|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/a46a0447-a9c7-4bb9-b1a7-e48938c18825">|
+
+|Noise level measured inside a car at 60mph, windows lowered: 60 dB|Noise level measured while using a lawn mower: 75 dB|
+|:-:|:-:|
+|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/16e226d3-b159-4d9b-9c88-16e255682a5f">|<img width="350" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/eca8b9e5-5916-4075-bc7b-376fd9a6861c">|
+
+|Noise level measured while using an electric chainsaw: 90 dB|Noise level measured near sirens (police car, firefighters, ambulance): 120 dB|
+|:-:|:-:|
+|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/683a1e3c-34c6-4295-a009-a28c6d8b5ce9">|<img width="350" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/5c907645-1c50-4bcb-ae28-19316d9f9f13">|
+
+|Noise level measured at a rock concert: 140 dB on stage (dark purple), 130 dB first few rows (light purple), 120 dB at row 30 (red).|
+|:-:|:-:|
+|<img width="600" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/b75cc68e-8f16-462d-92a7-f3c91dba3ac3">||
+
+
 
 ## Make it your own
 

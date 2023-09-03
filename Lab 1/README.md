@@ -241,19 +241,46 @@ You will be assigned three partners from another group. Go to their github pages
 \*\***Include pictures of your storyboards here**\*\*
 
 Storyboard #1:  
- - Setting: Grocery store or supermarket.
+ - Setting: Grocery store or supermarket anytime from 9-5pm.
  - Players: People who are shopping, kids, the supermarket workers, and people surrounding the shoppers whose opinions could be influenced as a result of the "Nutriscore Companion". 
  - Activity: An individual wears the "Nutriscore Companion" device on their wrist. They can scan an item they are interested in purchasing. "Nutriscore Companion" will tell them how safe/healthy/chemical free the item is. "Nutriscore Companion" will give the user a ranking of A being the healthiest to E being the unhealthiest. In the example storyboard, when the user scanned the bottle of deoderant, a list of ingredients revealed talcum powder which typically has traces of asbestos and was therefore given a ranking of E and a red screen was displayed on the "Nutriscore Companion" device. 
- - Goals: To help shoppers purchase items that are safe, healthy, and chemical free.
-![image](https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery.jpg){ width=250px height=250px }
-![image](https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery2.jpg){ width=250px height=250px }
+ - Goals: To help shoppers purchase items that are safe, healthy, and chemical free. Users are rewarded with a vibration from the device indicating that they should add it to cart and redeemable points towards an item of their choice. 
+
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery.jpg" width="250" height="250" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery2.jpg" width="250" height="250" alt="image">
 
 Storyboard #2:  
+ - Setting: Artist's room. 
+ - Players: Single player of just 1 artist.
+ - Activity: If an artist is stuck on what to paint, they can open the "Random Paint Generator" device. This device will generate 5 random colors for the artist to paint with.
+ - Goals:
+
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
+
+Storyboard #3:  
  - Setting:
  - Players:
  - Activity:
  - Goals:
-   
+
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
+
+Storyboard #3:  
+ - Setting:
+ - Players:
+ - Activity:
+ - Goals:
+
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
+
+Storyboard #3:  
+ - Setting:
+ - Players:
+ - Activity:
+ - Goals:
+
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
+
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?

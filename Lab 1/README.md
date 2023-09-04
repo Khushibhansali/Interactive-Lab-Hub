@@ -246,8 +246,8 @@ Storyboard #1:
  - Activity: An individual wears the "Nutriscore Companion" device on their wrist. They can scan an item they are interested in purchasing. "Nutriscore Companion" will tell them how safe/healthy/chemical free the item is. "Nutriscore Companion" will give the user a ranking of A being the healthiest to E being the unhealthiest. In the example storyboard, when the user scanned the bottle of deoderant, a list of ingredients revealed talcum powder which typically has traces of asbestos and was therefore given a ranking of E and a red screen was displayed on the "Nutriscore Companion" device. 
  - Goals: To help shoppers purchase items that are safe, healthy, and chemical free. Users are rewarded with a vibration from the device indicating that they should add it to cart and redeemable points towards an item of their choice. 
 
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery.jpg" width="250" height="250" alt="image">
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery2.jpg" width="250" height="250" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery.jpg" width="650" height="250" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery2.jpg" width="650" height="250" alt="image">
 
 Storyboard #2:  
  - Setting: Artist's room. 
@@ -255,7 +255,7 @@ Storyboard #2:
  - Activity: If an artist is stuck on what to paint, they can open the "Random Paint Generator" device. This device will generate 5 random colors for the artist to paint with.
  - Goals: To help artist decide what colors to paint with and showcase their work in a digital musuem. This offers the artist greater incentive and exposure. 
 
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="650" height="250" alt="image">
 
 Storyboard #3:  
  - Setting: The game is set in shared living spaces like homes or communal areas with a virtual overlay light of the streets.   
@@ -263,7 +263,7 @@ Storyboard #3:
  - Activity: When the light is green, players run. When it's yellow, they slow down to a walk, and when it turns red, they stop. The objective is to follow these signals correctly. The player who fails to follow the signal gets eliminated from the game, while the reward for the last remaining player is to be freed from the game, signifying their victory.
  - Goals: The goal of each player in the traffic light game is to accurately follow the traffic signals, avoid elimination, and ultimately be the last remaining player to win and exit the game. 
 
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/trafficlightgame.jpg" width="250" height="250" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/trafficlightgame.jpg" width="650" height="250" alt="image">
 
 Storyboard #4:  
  - Setting: An AR/VR environment of a zoo with digital animals like dolphins, monkeys, parrots, and giraffes.
@@ -271,7 +271,7 @@ Storyboard #4:
  - Activity: The interaction between the actors involves players commanding digital animals to perform tricks using a light signal. Players illuminate the digital animal with a specific light, and the animal responds by executing a trick corresponding to the color of the light. This interaction allows players to engage with the digital animals without the need for a zookeeper, creating an entertaining and interactive experience.
  - Goals: Players can elicit a happy dance from the digital animal, create a colorful screen display, and enable the animal to perform tricks independently, all through the effective use of light signals.
 
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/zoo.jpg" width="250" height="250" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/zoo.jpg" width="650" height="250" alt="image">
 
 Storyboard #5:  
  - Setting: A remote and lush jungle devoid of cellular reception, police presence, but equipped with a device containing survival essentials like instructions, food, clothing, and basic necessities.
@@ -279,15 +279,15 @@ Storyboard #5:
  - Activity: Stranded in the jungle, players receive instructions from the device to undertake a scavenger hunt as their means of escaping. Their task is to match the colors displayed on the device with elements in the natural surroundings. Completing all color matches enables their escape.
  - Goals: Foster team bonding among coworkers and successfully leave the jungle by completing the scavenger hunt challenge.
 
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/survivor.jpg" width="250" height="250" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/survivor.jpg" width="650" height="250" alt="image">
 
 Storyboard #6:  
- - Setting:
- - Players:
- - Activity:
- - Goals:
+ - Setting: The kitchen.
+ - Players: A novice cook.
+ - Activity: An intelligent pot equipped with LED lights on the handle indicates the pot's temperature. The user can program the pot to cook foods at their desired temperature. When the food is cooked, the pot turns off and plays a song as a delightful reward. The strategically placed LED lights on the handle ensure they are not damaged by flames, as it's an electric pot with temperature control. Additionally, it's waterproof, allowing easy cleaning.
+ - Goals: Enhance users' ability to multitask, make cooking an enjoyable experience, and provide a musical reward when the food is ready.
 
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/chef.jpg" width="650" height="250" alt="image">
 
 Storyboard #7:  
  - Setting:

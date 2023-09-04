@@ -251,13 +251,37 @@ Storyboard #1:
 
 Storyboard #2:  
  - Setting: Artist's room. 
- - Players: Single player of just 1 artist.
+ - Players: Single player of just an artist.
  - Activity: If an artist is stuck on what to paint, they can open the "Random Paint Generator" device. This device will generate 5 random colors for the artist to paint with.
- - Goals:
+ - Goals: To help artist decide what colors to paint with and showcase their work in a digital musuem. This offers the artist greater incentive and exposure. 
 
 <img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
 
 Storyboard #3:  
+ - Setting: The game is set in shared living spaces like homes or communal areas with a virtual overlay light of the streets.   
+ - Players: The primary user engages directly with the game, while passive observers, like friends and family, may watch or provide input. Roommates may be impacted by the game's lights and sounds.    Children and pets could be curious or influenced by game elements, and neighbors may notice noise or light effects. 
+ - Activity: When the light is green, players run. When it's yellow, they slow down to a walk, and when it turns red, they stop. The objective is to follow these signals correctly. The player who fails to follow the signal gets eliminated from the game, while the reward for the last remaining player is to be freed from the game, signifying their victory.
+ - Goals: The goal of each player in the traffic light game is to accurately follow the traffic signals, avoid elimination, and ultimately be the last remaining player to win and exit the game. 
+
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/trafficlightgame.jpg" width="250" height="250" alt="image">
+
+Storyboard #4:  
+ - Setting: An AR/VR environment of a zoo with digital animals like dolphins, monkeys, parrots, and giraffes.
+ - Players: Anyone with an AR/VR headset who is exploring the virtual zoo. Additionally, the people in the physical environment surrounding the AR/VR player may also become secondary players as they observe and potentially interact with the AR/VR experience.  
+ - Activity: The interaction between the actors involves players commanding digital animals to perform tricks using a light signal. Players illuminate the digital animal with a specific light, and the animal responds by executing a trick corresponding to the color of the light. This interaction allows players to engage with the digital animals without the need for a zookeeper, creating an entertaining and interactive experience.
+ - Goals: Players can elicit a happy dance from the digital animal, create a colorful screen display, and enable the animal to perform tricks independently, all through the effective use of light signals.
+
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/zoo.jpg" width="250" height="250" alt="image">
+
+Storyboard #5:  
+ - Setting: A remote and lush jungle devoid of cellular reception, police presence, but equipped with a device containing survival essentials like instructions, food, clothing, and basic necessities.
+ - Players: A team comprising coworkers from an office.
+ - Activity: Stranded in the jungle, players receive instructions from the device to undertake a scavenger hunt as their means of escaping. Their task is to match the colors displayed on the device with elements in the natural surroundings. Completing all color matches enables their escape.
+ - Goals: Foster team bonding among coworkers and successfully leave the jungle by completing the scavenger hunt challenge.
+
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/survivor.jpg" width="250" height="250" alt="image">
+
+Storyboard #6:  
  - Setting:
  - Players:
  - Activity:
@@ -265,15 +289,7 @@ Storyboard #3:
 
 <img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
 
-Storyboard #3:  
- - Setting:
- - Players:
- - Activity:
- - Goals:
-
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="250" height="250" alt="image">
-
-Storyboard #3:  
+Storyboard #7:  
  - Setting:
  - Players:
  - Activity:

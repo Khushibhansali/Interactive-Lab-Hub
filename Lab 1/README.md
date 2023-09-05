@@ -322,7 +322,13 @@ The concept of the "Nutriscore Companion" device, designed to empower consumers 
 We've explored the potential for incorporating augmented reality (AR) to provide users with immersive product information when they scan items, enhancing their understanding of nutritional value and environmental impact. Additionally, integrating machine learning algorithms to personalize recommendations based on individual dietary preferences and restrictions has been a focus. To address privacy concerns, advanced encryption techniques and decentralized data storage have been considered to ensure data security. Furthermore, to enhance sustainability, we've explored using eco-friendly materials for the device and incorporating a recycling program for its components.
 
 ## Part C. Prototype the device
+You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
 
+Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
+
+We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
@@ -337,6 +343,20 @@ For these videos, I was trying to be mindful of different types of users. I adde
 
  1st Attempt: Buying box of blueberries    
  - Video Link: https://drive.google.com/file/d/1m2A6bxKcx3oydcWnbnfWWtPxZH-zINd4/view?usp=sharing
+
+## Part E. Costume the device
+
+Transforming the "Nutriscore Companion" into a watch introduces critical design considerations that were taken into consideration in the following designs. Given its potential use in various environments, it's crucial to prevent overheating by implementing effective heat dissipation measures. Waterproofing is equally essential, considering the watch's exposure to rain and water splashes during daily activities. In an emergency, visibility is key, and while bright colors can aid visibility, it's imperative to balance aesthetics and practicality to ensure the display remains user-friendly and legible in low-light or critical situations. 
+
+Costume #1:
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/costumes/1.jpg" width="650" height="350" alt="image">
+
+Costume #2:
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/costumes/2.jpg" width="650" height="350" alt="image">
+
+Costume #3:
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/costumes/3.jpg" width="650" height="350" alt="image">
+
 
 \*\***Show the follow-up work here.**\*\*
 ## Part F. Record

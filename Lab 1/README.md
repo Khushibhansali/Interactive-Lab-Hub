@@ -327,12 +327,30 @@ We've explored the potential for incorporating augmented reality (AR) to provide
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+For these videos, I was trying to be mindful of different types of users. I added an audio component so that colorblind people are accomodated for.
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+ 1st Attempt: Buying Box of pringles (chips)   
+ - Video Link: https://drive.google.com/file/d/1VyPzp77fNWMvaAuqg0AmY-9RjiWOFls5/view?usp=sharing
+
+1st Attempt: Buying Deoderant  
+ - Video Link: https://drive.google.com/file/d/14L421gkfDYM2WNyhOSf1noe5Ctxw9a35/view?usp=sharing
+
+ 1st Attempt: Buying box of blueberries    
+ - Video Link: https://drive.google.com/file/d/1m2A6bxKcx3oydcWnbnfWWtPxZH-zINd4/view?usp=sharing
 
 \*\***Show the follow-up work here.**\*\*
 ## Part F. Record
 
+For these videos, I incorporated an incentive of buying healthier items at the grocery store.
 \*\***Take a video of your prototyped interaction.**\*\*
+2nd Attempt: Buying Box of pringles (chips)   
+ - Video Link: https://drive.google.com/file/d/1spUfMA_TXJybp9jJPcvVQJMYZzTA__Mc/view?usp=sharing
 
+2nd Attempt: Buying Deoderant  
+ - Video Link: https://drive.google.com/file/d/1lcWbMIkx9WEMMb6cUzTg9HHFr6KkCxbJ/view?usp=sharing
+
+2nd Attempt: Buying box of blueberries    
+ - Video Link: https://drive.google.com/file/d/1dyHJbtJ1lSzUYCbZIcScNE2h41wzWrR5/view?usp=sharing
+   
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+I worked with my partner William Reid. 

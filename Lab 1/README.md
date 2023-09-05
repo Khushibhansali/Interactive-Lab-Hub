@@ -93,7 +93,8 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 <img width="550" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/d1cc195d-44f9-47c9-b0aa-42948e7498b7">
 
-Noise level measured at a yoga class: 5 dB. Recorded sounds: breathing.|Noise level measured on a calm day at the park: 30 dB. Recorded sounds: rustling of leaves, gentle breeze, birds chirping at a distance.
+|Noise level measured at a yoga class: 5 dB. Recorded sounds: breathing.|Noise level measured on a calm day at the park: 30 dB. Recorded sounds: rustling of leaves, gentle breeze, birds chirping at a distance.
+|:-:|:-:|
 |<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/bb4ca914-8a35-494b-bbbd-4d3aae2ede61">|<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/a46a0447-a9c7-4bb9-b1a7-e48938c18825">|
 
 |Noise level measured inside a car at 60mph, windows lowered: 60 dB|Noise level measured while using a lawn mower: 75 dB|

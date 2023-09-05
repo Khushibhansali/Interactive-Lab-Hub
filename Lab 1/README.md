@@ -372,5 +372,5 @@ For these videos, I incorporated an incentive of buying healthier items at the g
 2nd Attempt: Buying box of blueberries    
  - Video Link: https://drive.google.com/file/d/1dyHJbtJ1lSzUYCbZIcScNE2h41wzWrR5/view?usp=sharing
    
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-I worked with my partner William Reid. 
+**Please indicate anyone you collaborated with on this Lab.**
+I worked with my partner William Reid and was inspired by Europe's existing [NutriScore implementation](https://en.wikipedia.org/wiki/Nutri-Score) as photos on foods. But through this project, we got to make it a live interactive experience for all supermarket goods.

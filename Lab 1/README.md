@@ -240,20 +240,20 @@ You will be assigned three partners from another group. Go to their github pages
 ## Part A. Plan 
 \*\***Include pictures of your storyboards here**\*\*
 
-**Storyboard #1:  This is the storyboard we decided to persue for this part. **
+**Storyboard #1:  This is the storyboard we decided to pursue for this part. **
  - Setting: Grocery store or supermarket anytime from 9-5pm.
- - Players: People who are shopping, kids, the supermarket workers, and people surrounding the shoppers whose opinions could be influenced as a result of the "Nutriscore Companion". 
- - Activity: An individual wears the "Nutriscore Companion" device on their wrist. They can scan an item they are interested in purchasing. "Nutriscore Companion" will tell them how safe/healthy/chemical free the item is. "Nutriscore Companion" will give the user a ranking of A being the healthiest to E being the unhealthiest. In the example storyboard, when the user scanned the bottle of deoderant, a list of ingredients revealed talcum powder which typically has traces of asbestos and was therefore given a ranking of E and a red screen was displayed on the "Nutriscore Companion" device. 
- - Goals: To help shoppers purchase items that are safe, healthy, and chemical free. Users are rewarded with a vibration from the device indicating that they should add it to cart and redeemable points towards an item of their choice. 
+ - Players: People who are shopping, kids, supermarket workers, and people surrounding the shoppers whose opinions could be influenced as a result of the "Nutriscore Companion". 
+ - Activity: An individual wears the "Nutriscore Companion" device on their wrist. They can scan an item they are interested in purchasing. "Nutriscore Companion" will tell them how safe/healthy/chemical-free the item is. "Nutriscore Companion" will give the user a ranking of A being the healthiest to E being the unhealthiest. In the example storyboard, when the user scanned the bottle of deodorant, a list of ingredients revealed talcum powder which typically has traces of asbestos and was therefore given a ranking of E, and a red screen was displayed on the "Nutriscore Companion" device. 
+ - Goals: To help shoppers purchase items that are safe, healthy, and chemical-free. Users are rewarded with a vibration from the device indicating that they should add it to the cart and redeemable points towards an item of their choice. 
 
 <img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery.jpg" width="650" height="350" alt="image">
 <img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/grocery2.jpg" width="650" height="350" alt="image">
 
 **Storyboard #2:  **
  - Setting: Artist's room. 
- - Players: Single player of just an artist.
+ - Players: Single-player of just an artist.
  - Activity: If an artist is stuck on what to paint, they can open the "Random Paint Generator" device. This device will generate 5 random colors for the artist to paint with.
- - Goals: To help artist decide what colors to paint with and showcase their work in a digital musuem. This offers the artist greater incentive and exposure. 
+ - Goals: To help artist decide what colors to paint with and showcase their work in a digital museum. This offers the artist greater incentive and exposure. 
 
 <img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/paint.jpg" width="650" height="350" alt="image">
 
@@ -274,7 +274,7 @@ You will be assigned three partners from another group. Go to their github pages
 <img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%201/storyboards/zoo.jpg" width="650" height="350" alt="image">
 
 **Storyboard #5: ** 
- - Setting: A remote and lush jungle devoid of cellular reception, police presence, but equipped with a device containing survival essentials like instructions, food, clothing, and basic necessities.
+ - Setting: A remote and lush jungle devoid of cellular reception or police presence, but equipped with a device containing survival essentials like instructions, food, clothing, and basic necessities.
  - Players: A team comprising coworkers from an office.
  - Activity: Stranded in the jungle, players receive instructions from the device to undertake a scavenger hunt as their means of escaping. Their task is to match the colors displayed on the device with elements in the natural surroundings. Completing all color matches enables their escape.
  - Goals: Foster team bonding among coworkers and successfully leave the jungle by completing the scavenger hunt challenge.
@@ -319,29 +319,29 @@ The concept of the "Nutriscore Companion" device, designed to empower consumers 
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
-We've explored the potential for incorporating augmented reality (AR) to provide users with immersive product information when they scan items, enhancing their understanding of nutritional value and environmental impact. Additionally, integrating machine learning algorithms to personalize recommendations based on individual dietary preferences and restrictions has been a focus. To address privacy concerns, advanced encryption techniques and decentralized data storage have been considered to ensure data security. Furthermore, to enhance sustainability, we've explored using eco-friendly materials for the device and incorporating a recycling program for its components.
+We've explored the potential for incorporating augmented reality (AR) to provide users with immersive product information when they scan items, enhancing their understanding of nutritional value and environmental impact. Additionally, integrating machine learning algorithms to personalize recommendations based on individual dietary preferences and restrictions has been a focus. To address privacy concerns, advanced encryption techniques, and decentralized data storage have been considered to ensure data security. Furthermore, to enhance sustainability, we've explored using eco-friendly materials for the device and incorporating a recycling program for its components.
 
 ## Part C. Prototype the device
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
+You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smartphone to act as a “light” and use a remote control interface to remotely change the light on that device. 
 
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab! 
 
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can manually or remotely control.
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene that you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-For these videos, I was trying to be mindful of different types of users. I added an audio component so that colorblind people are accomodated for.
+For these videos, I was trying to be mindful of different types of users. I added an audio component so that colorblind people are accommodated for.
 
- 1st Attempt: Buying Box of pringles (chips)   
+ 1st Attempt: Buying a Box of Pringles (chips)   
  - Video Link: https://drive.google.com/file/d/1VyPzp77fNWMvaAuqg0AmY-9RjiWOFls5/view?usp=sharing
 
-1st Attempt: Buying Deoderant  
+1st Attempt: Buying Deodorant  
  - Video Link: https://drive.google.com/file/d/14L421gkfDYM2WNyhOSf1noe5Ctxw9a35/view?usp=sharing
 
- 1st Attempt: Buying box of blueberries    
+ 1st Attempt: Buying a box of blueberries    
  - Video Link: https://drive.google.com/file/d/1m2A6bxKcx3oydcWnbnfWWtPxZH-zINd4/view?usp=sharing
 
 ## Part E. Costume the device
@@ -361,16 +361,16 @@ Costume #3:
 \*\***Show the follow-up work here.**\*\*
 ## Part F. Record
 
-For these videos, I incorporated an incentive of buying healthier items at the grocery store.
+For these videos, we incorporated an incentive to buy healthier items at the grocery store.
 \*\***Take a video of your prototyped interaction.**\*\*
-2nd Attempt: Buying Box of pringles (chips)   
+2nd Attempt: Buying a Box of Pringles (chips)   
  - Video Link: https://drive.google.com/file/d/1spUfMA_TXJybp9jJPcvVQJMYZzTA__Mc/view?usp=sharing
 
-2nd Attempt: Buying Deoderant  
+2nd Attempt: Buying Deodorant  
  - Video Link: https://drive.google.com/file/d/1lcWbMIkx9WEMMb6cUzTg9HHFr6KkCxbJ/view?usp=sharing
 
-2nd Attempt: Buying box of blueberries    
+2nd Attempt: Buying a box of blueberries    
  - Video Link: https://drive.google.com/file/d/1dyHJbtJ1lSzUYCbZIcScNE2h41wzWrR5/view?usp=sharing
    
 **Please indicate anyone you collaborated with on this Lab.**
-I worked with my partner William Reid and was inspired by Europe's existing [NutriScore implementation](https://en.wikipedia.org/wiki/Nutri-Score) as photos on foods. But through this project, we got to make it a live interactive experience for all supermarket goods.
+I worked with my partner William Reid and was inspired by Europe's existing [NutriScore implementation](https://en.wikipedia.org/wiki/Nutri-Score) as photos of foods. But through this project, we got to make it a live interactive experience for all supermarket goods.

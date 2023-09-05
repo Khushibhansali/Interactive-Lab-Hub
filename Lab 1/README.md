@@ -9,7 +9,7 @@ In the original stage production of Peter Pan, Tinker Bell was represented by a 
 
 There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
 
-For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. 
+For lab this week, we draw on this and other inspirations from theatre-to-stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. 
 
 _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
 
@@ -105,9 +105,9 @@ Present your ideas to the other people in your breakout room (or in small groups
 |:-:|:-:|
 |<img width="300" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/683a1e3c-34c6-4295-a009-a28c6d8b5ce9">|<img width="350" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/5c907645-1c50-4bcb-ae28-19316d9f9f13">|
 
-|Noise level measured at a rock concert: 140 dB on stage (dark purple), 130 dB first few rows (light purple), 120 dB at row 30 (red).|
+|Noise level measured at a rock concert: 140 dB on stage (dark purple), 130 dB first few rows (light purple), 120 dB at row 30 (red).| |
 |:-:|:-:|
-|<img width="600" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/b75cc68e-8f16-462d-92a7-f3c91dba3ac3">||
+|<img width="600" alt="image" src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/b75cc68e-8f16-462d-92a7-f3c91dba3ac3">| |
 
 
 

@@ -73,13 +73,13 @@ People who want to know the level of harm the sounds around them may cause to th
 
 _Activity:_ What is happening between the actors?
 
-An individual goes about his/her day carrying or wearing his interactive device. Over the span of the day, the interactive device samples ambient noise every 5 seconds and informs the individual on the level of noise pillution through a color display. 
+An individual goes about his/her day carrying or wearing his interactive device. Over the span of the day, the interactive device samples ambient noise every 5 seconds and informs the individual on the level of noise pollution through a color display. 
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The purpose of this interaction is to mitigate the adverse effects of noise pollution on the human population. The following illustrations portray how the interactive device described below will alert the end user if exposed to unhealthy noise levels.
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+The interactive device can be anything *except* a computer, a tablet computer or a smartphone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 

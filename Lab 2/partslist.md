@@ -65,5 +65,3 @@
 
 ## Missing Parts here
 \*\*\***List down parts you did not get from the kit here**\*\*\*
-
-I don't have any parts with the N/A marked next to them.

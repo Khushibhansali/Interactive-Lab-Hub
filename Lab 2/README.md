@@ -226,7 +226,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/part2.jpg2" width="650" height="350" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/part2.jpg" width="650" height="350" alt="image">
 
 # Prep for Part 2
 

@@ -202,7 +202,7 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/sketch.jpg" width="650" height="350" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/part1.jpg" width="650" height="350" alt="image">
 
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
@@ -221,10 +221,12 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+    
+> Video Link: https://drive.google.com/file/d/1LWn1txYH7h46vRsdvbcSUoaTyq8mR2DK/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/sketch.jpg2" width="650" height="350" alt="image">
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/part2.jpg2" width="650" height="350" alt="image">
 
 # Prep for Part 2
 

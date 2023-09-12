@@ -214,7 +214,6 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 ```
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/IMG_1493.HEIC" width="650" height="350" alt="image">
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
@@ -223,7 +222,6 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/IMG_1493.HEIC" width="650" height="350" alt="image">
 
 # Prep for Part 2
 

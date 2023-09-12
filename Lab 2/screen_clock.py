@@ -5,6 +5,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 
+
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -60,12 +61,41 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+# Define different scenes and fish for different times of day
+scenes = {
+    "morning": "./Images/morning.jpeg",
+    "afternoon": "./Images/afternoon.jpeg",
+    "night": "./Images/night.jpeg",
+}
+
 while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=400)
+    current_time = time.strftime("%H:%M")
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    # Determine the time of day based on the current hour
+    current_hour = int(time.strftime("%H"))
+    if 6 <= current_hour < 12:
+        time_of_day = "morning"
+    elif 12 <= current_hour < 18:
+        time_of_day = "afternoon"
+    else:
+        time_of_day = "night"
 
-    # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+    # Load the appropriate scenery and fish image based on the time of day
+    scenery_and_fish_image = Image.open(scenes[time_of_day])
+
+    # Resize the image to match the display's dimensions (135x240)
+    scenery_and_fish_image = scenery_and_fish_image.resize((135, 240))
+
+    # Create an image to overlay the text on
+    image_with_text = scenery_and_fish_image.copy()
+    draw = ImageDraw.Draw(image_with_text)
+
+    # Draw the current time on the overlay
+    draw.text((5, 5), "Time:", font=font, fill=(255, 255, 255))
+    draw.text((10, 40), current_time, font=font, fill=(255, 255, 255))
+
+    # Display the image with the overlay
+    disp.image(image_with_text)
+
+    # Update the display every minute
+    time.sleep(60)

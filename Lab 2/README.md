@@ -234,6 +234,11 @@ After that, Git will ask you to login to your GitHub account to push the updates
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+   - make the pictures movable or interactive
+   - make fishes on the screen swimming or sleeping to show the time in addition to the text display
+   - make the text display a more legible color
+   - try to gamify the screen
+   - incorpate tooltips to provide information on the plants and fish in the aquarium
 
 # Lab 2 Part 2
 

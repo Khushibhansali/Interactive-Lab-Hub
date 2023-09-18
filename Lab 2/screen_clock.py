@@ -80,10 +80,6 @@ button_pin = digitalio.DigitalInOut(board.D24)
 button_pin.switch_to_input(pull=digitalio.Pull.UP)
 button = Button(24)
 
-# # Set up button input
-# button_pin = digitalio.DigitalInOut(board.D24)
-# button_pin.switch_to_input(pull=digitalio.Pull.UP)
-
 # Load the cactus image
 cactus = Image.open("cactus.png")  # Replace with the path to your cactus image
 cactus_width, cactus_height = 20, 40  # Set the size of the cactus image
@@ -139,7 +135,6 @@ while True:
         background = background.resize((width, height))
         cactus_counter = 0 
        
-
     # Update the position of the cactus based on its distance from the dinosaur
     cactus_x -= 1  # Move the cactus left
     if cactus_x < -cactus_width:
@@ -167,20 +162,40 @@ while True:
         # Increment the jump count when the cactus is ahead of the dinosaur and the dinosaur is above the threshold
         if cactus_x <= dinosaur_x and dinosaur_y <= cactus_y:
             jump_count += 1
+    
 
-    # Paste the background image onto the screen
-    image.paste(background, (0, 0))
+    # Determine if you should display the black screen with information
+    if jump_count == 0 and cactus_counter > 0:
 
-    # Draw the dinosaur at the updated position
-    image.paste(dinosaur, (dinosaur_x, dinosaur_y))
+        dict = {
+            "1":"\nPrecambrian Era: About\n 4.5 billion years ago\n it created multicelled \nlife-forms.", 
+            "2":"\nPaleozic Era: About \n251.9 million years ago. \nFish diversified, shallow \nseas formed, and collisions \nformed the Appalachian \nMountains.", 
+            "3":"\nMesozoic Era: About \n66 million years ago.\n Pangaea separated, and dinosaurs,\ncrocodiles, and pterosaurs ruled \nthe land and air."
+        }
 
-    # Paste the cactus image on the screen
-    image.paste(cactus, (cactus_x, cactus_y))
+        info_text = "You lost in the " + dict[str(background_index+1)]
+        draw.rectangle((0, 0, width, height), outline=0, fill=400)
+        draw.text((10, 10), info_text, font=font, fill=(255, 255, 255))
 
-    # Display the jump count on the screen
-    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
-    text = f"Jumps: {jump_count//21}"
-    draw.text((10, 10), text, font=font, fill=(255, 255, 255))
+    elif jump_count >=441 or jump_count//21 == 21 :
+        
+        congrats_message = "Congrats! You won the\n game! Your dinosaur reached\n modern day new york.\n Year 2023."
+        draw.rectangle((0, 0, width, height), outline=0, fill=400)
+        draw.text((10, 10), congrats_message, font=font, fill=(255, 255, 255))
+
+    else:
+        # Paste the background image onto the screen
+        image.paste(background, (0, 0))
+
+        # Draw the dinosaur at the updated position
+        image.paste(dinosaur, (dinosaur_x, dinosaur_y))
+
+        # Paste the cactus image on the screen
+        image.paste(cactus, (cactus_x, cactus_y))
+
+        # Display the jump count on the screen
+        text = f"Jumps: {jump_count//21}"
+        draw.text((10, 10), text, font=font, fill=(255, 255, 255))
 
     # Display image.
     disp.image(image, rotation)

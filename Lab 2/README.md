@@ -250,4 +250,20 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+# Part 2: Part E
+This will be an educational clock game. It’s based off of the chrome dinosaur game where users have to press the button on the raspberry pi display to move the dinosaur up and down. The objective is to make a dinosaur jump and avoid touching the cactuses. It’s a player loses, they are presented with some **time period** artifacts from the scene that they lost in. They will also be a score counter to motivate the player. 
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/img1.jpg" width="650" height="350" alt="image">
+
+# Part 2: Part F
+Game instructions: Based off of the Chrome dinosaur game, press the bottom button on the raspberry pi to make the dinosaur jump and avoid the cactus. There will also be a score keeping track of player progress. When the player looses they are shown a screen with a congrats message.
+
+> Video Link: https://drive.google.com/file/d/1MGL7Xcs55FBxSqWWEZ45Xd344BbzEd_w/view?usp=drive_link
+> Video Link: https://drive.google.com/file/d/1lFTCh9-4GqK5IUDTZ1w4dFaMC--NCpUi/view?usp=sharing
+> Video Link: https://drive.google.com/file/d/16z_3J6ijoFxKPJ9b_KN5MGM9gOHyVioX/view?usp=sharing
+
+User wins: 
+> Video Link: https://drive.google.com/file/d/1V7meY75mX34W1Zzu78B4OxZicdS-mP2j/view?usp=sharing
+
+# Part 2: Part G
+<img src="https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%202/img2.jpg" width="650" height="350" alt="image">
 

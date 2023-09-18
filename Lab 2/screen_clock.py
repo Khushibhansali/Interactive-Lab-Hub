@@ -95,18 +95,14 @@ cactus_y = height // 2
 buffer = Image.new("RGB", (width, height), (0, 0, 0))
 buffer_draw = ImageDraw.Draw(buffer)
 
-background = Image.open("Images/background.jpeg")  # Replace with the path to your background image
+background = Image.open("TimeZones/1.jpeg")  # Replace with the path to your background image
 background = background.resize((width, height))
 
-background_folder = "Images"
+background_folder = "TimeZones"
 background_images = [f for f in os.listdir(background_folder) if f.endswith(".jpeg") or f.endswith(".png")]
 background_images.sort()  # Ensure images are sorted alphabetically
-
 background_index = 0  # Initialize the index for the current background image
-background_change_count = 0  # Initialize a counter for the cactus touches
-last_country_name = "Madagascar"
-cactus_speed = 1
-
+cactus_counter = 0  # Initialize a counter for the cactuses
 
 # Load the cactus image
 cactus = Image.open("cactus.png")  # Replace with the path to your cactus image
@@ -114,7 +110,6 @@ cactus_width, cactus_height = 20, 40  # Set the size of the cactus image
 cactus = cactus.resize((cactus_width, cactus_height))
 
 # Set the initial position of the dot and the cactus
-dot_x = 0
 cactus_x = width - cactus_width
 cactus_y = height // 2
 
@@ -126,31 +121,31 @@ cactus_y = height // 2
 jump_count = 0
 collision = False
 gravity = 1
-can_jump = True
+
 while True:
     if button.is_pressed:
-        # Button is pressed, move the dinosaur up and set can_jump to False
+        # Button is pressed, move the dinosaur up 
         dinosaur_y -= 14  # Adjust the value to control the speed of the dinosaur's upward movement
-
     else:
         # Apply gravity to the dinosaur's position to make it descend slowly
         dinosaur_y += gravity
         if dinosaur_y > height // 2:
             dinosaur_y = height // 2  # Ensure the dinosaur doesn't fall below its initial position
-              # Reset the can_jump flag when the dinosaur is on the ground
-
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
     
+    if cactus_counter >=3 and cactus_counter % 3 == 0:
+        #Change the background image
+        background_index = (background_index + 1) % len(background_images)
+        background = Image.open(os.path.join(background_folder, background_images[background_index]))
+        background = background.resize((width, height))
+        cactus_counter = 0 
+       
+
     # Update the position of the cactus based on its distance from the dinosaur
     cactus_x -= 1  # Move the cactus left
     if cactus_x < -cactus_width:
         cactus_x = width  # Reset the cactus to the right of the screent
-
-    # Check for collision between the dinosaur and the cactus
-    # if (
-    #     dinosaur_x <= cactus_x and dinosaur_height <= cactus_y
-    # ):
+        cactus_counter +=1
+    
     if (
         dinosaur_x < cactus_x + cactus_width
         and dinosaur_x + dinosaur_width > cactus_x
@@ -164,7 +159,6 @@ while True:
         collision = True
         # Reset the jump count to 0
         jump_count = 0
-        can_jump = True  # Reset can_jump when the dinosaur hits a cactus
     else:
         collision = False
 
@@ -174,6 +168,8 @@ while True:
         if cactus_x <= dinosaur_x and dinosaur_y <= cactus_y:
             jump_count += 1
 
+    # Paste the background image onto the screen
+    image.paste(background, (0, 0))
 
     # Draw the dinosaur at the updated position
     image.paste(dinosaur, (dinosaur_x, dinosaur_y))
@@ -183,7 +179,7 @@ while True:
 
     # Display the jump count on the screen
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
-    text = f"Jumps: {jump_count}"
+    text = f"Jumps: {jump_count//21}"
     draw.text((10, 10), text, font=font, fill=(255, 255, 255))
 
     # Display image.

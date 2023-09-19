@@ -117,8 +117,15 @@ cactus_y = height // 2
 jump_count = 0
 collision = False
 gravity = 1
+speed = 1
+
+# Initialize the stopwatch variables
+stopwatch_start_time = time.time()
+stopwatch_elapsed_time = 0
+stopwatch_running = True
 
 while True:
+    
     if button.is_pressed:
         # Button is pressed, move the dinosaur up 
         dinosaur_y -= 14  # Adjust the value to control the speed of the dinosaur's upward movement
@@ -134,9 +141,10 @@ while True:
         background = Image.open(os.path.join(background_folder, background_images[background_index]))
         background = background.resize((width, height))
         cactus_counter = 0 
+        speed += 2
        
     # Update the position of the cactus based on its distance from the dinosaur
-    cactus_x -= 1  # Move the cactus left
+    cactus_x -= speed  # Move the cactus left
     if cactus_x < -cactus_width:
         cactus_x = width  # Reset the cactus to the right of the screent
         cactus_counter +=1
@@ -154,6 +162,8 @@ while True:
         collision = True
         # Reset the jump count to 0
         jump_count = 0
+        stopwatch_start_time = time.time()
+        
     else:
         collision = False
 
@@ -162,8 +172,10 @@ while True:
         # Increment the jump count when the cactus is ahead of the dinosaur and the dinosaur is above the threshold
         if cactus_x <= dinosaur_x and dinosaur_y <= cactus_y:
             jump_count += 1
-    
-
+            if jump_count < 1 and stopwatch_running:
+                stopwatch_start_time = time.time()
+                stopwatch_running = False
+     
     # Determine if you should display the black screen with information
     if jump_count == 0 and cactus_counter > 0:
 
@@ -194,9 +206,11 @@ while True:
         image.paste(cactus, (cactus_x, cactus_y))
 
         # Display the jump count on the screen
-        text = f"Jumps: {jump_count//21}"
-        draw.text((10, 10), text, font=font, fill=(255, 255, 255))
-
+        stopwatch_elapsed_time = time.time() - stopwatch_start_time
+        stopwatch_text = f"Time: {stopwatch_elapsed_time:.2f} seconds"
+        text = f"Score: {jump_count//21} Time: {stopwatch_elapsed_time:.2f} s"
+        draw.text((2, 10), text, font=font, fill=(255, 255, 255))
+       
     # Display image.
     disp.image(image, rotation)
     time.sleep(0.03)  # Adjust the delay as needed

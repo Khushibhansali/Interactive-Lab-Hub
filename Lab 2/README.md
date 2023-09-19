@@ -259,9 +259,9 @@ This will be an educational clock game. It’s based off of the chrome dinosaur 
 # Part 2: Part F
 Game instructions: Based off of the Chrome dinosaur game, press the bottom button on the raspberry pi to make the dinosaur jump and avoid the cactus. There will also be a score keeping track of player progress. When the player looses they are shown a screen with a congrats message.
 
-- Video Link: https://drive.google.com/file/d/1MGL7Xcs55FBxSqWWEZ45Xd344BbzEd_w/view?usp=drive_link
-- Video Link: https://drive.google.com/file/d/1lFTCh9-4GqK5IUDTZ1w4dFaMC--NCpUi/view?usp=sharing
--  Video Link: https://drive.google.com/file/d/16z_3J6ijoFxKPJ9b_KN5MGM9gOHyVioX/view?usp=sharing
+- Video Link: https://drive.google.com/file/d/1qQfT9O9Jq3M2oiyFw5qVYes5_z0QIXxs/view?usp=sharing
+- Video Link: https://drive.google.com/file/d/1EcwjxkxSMCLfbMmoVc7XV0Es_ylgPP_l/view?usp=sharing
+- Video Link: https://drive.google.com/file/d/1nP6jPyKwsuRApxjP9hLfNlV0VAZsAw9h/view?usp=sharing
 
 User wins: 
 - Video Link: https://drive.google.com/file/d/1V7meY75mX34W1Zzu78B4OxZicdS-mP2j/view?usp=sharing

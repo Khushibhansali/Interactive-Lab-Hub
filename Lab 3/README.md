@@ -1,5 +1,5 @@
 # Chatterboxes
-**NAMES OF COLLABORATORS HERE**
+**COLLABORATORS: William Reid Hernandez wjr83 **
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -69,6 +69,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+**This is completed in greet.sh. I have it say "Hello, master Khushi Bhansali. Have a wonderful day." **
 ---
 Bonus:
 [Piper](https://github.com/rhasspy/piper) is another fast neural based text to speech package for raspberry pi which can be installed easily through python with:
@@ -110,6 +111,8 @@ python test_microphone.py -m en
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+**This is completed in numerical_input.sh. I have it ask how many pets I have and then it prints that to the screen. **
+
 
 ### Serving Pages
 
@@ -137,13 +140,41 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
+<img alt="image" src="storyboard/1.jpg">
+<img alt="image" src="storyboard/2.jpg">
+
 \*\***Please describe and document your process.**\*\*
+We came up with many ideas before deciding to create a 20 questions game. We thought of making a pitch voice assistant for singers however that would require some AI since we would have to give feedback on pitch, duration, stability in voice etc. We then pivoted to a magic 8 ball assistant. Here the assistant give a magic oracle feeling to the user. The user could ask any question about their future and then the magic 8 ball tries to predict what happens. We thought this game would be too simple. Then we finally decided to make a 20 questions game and put a spin to it. Normally, the computer has to guess what the user is thinking of in 20 questions. We changed the game so that the user must guess what the computer is thinking of in 20 questions. 
+
+In order to determine if the user is going in the correct direction of guessing the object we mapped out some potential questions/dialogue: 
+Is it a kitchen appliance?
+Does it have a heating element?
+Is it used for cooking?
+Is it used for cleaning?
+Does it need water?
+Does it have a digital display?
+Does it have a timer?
+Is it powered by electricity?
+Does it have moving parts?
+Is it used for food storage?
+Is it used for cooling?
+Is it found in the laundry room?
+Does it make noise when in use?
+Is it typically plugged into a wall outlet?
+Is it used for personal grooming?
+Is it used for entertainment?
+Is it small and portable?
+Does it have buttons or controls?
+
+All these questions were then polled for common attributes. Those attributes are then going to be the key words that help us determine whether the user is getting closer or farther away from the object the computer has selected. For example, some attributes are electricity, heating_element, cooking, and cleaning. 
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+Imagined 
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!

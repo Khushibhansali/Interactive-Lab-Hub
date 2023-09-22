@@ -137,8 +137,33 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+<img alt="image" src="storyboard/1.jpg">
+<img alt="image" src="storyboard/2.jpg">
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+\*\***Please describe and document your process.**\*\*
+We came up with many ideas before deciding to create a 20 questions game. We thought of making a pitch voice assistant for singers however that would require some AI since we would have to give feedback on pitch, duration, stability in voice etc. We then pivoted to a magic 8 ball assistant. Here the assistant give a magic oracle feeling to the user. The user could ask any question about their future and then the magic 8 ball tries to predict what happens. We thought this game would be too simple. Then we finally decided to make a 20 questions game and put a spin to it. Normally, the computer has to guess what the user is thinking of in 20 questions. We changed the game so that the user must guess what the computer is thinking of in 20 questions. 
+
+In order to determine if the user is going in the correct direction of guessing the object we mapped out some potential questions/dialogue: 
+Is it a kitchen appliance?
+Does it have a heating element?
+Is it used for cooking?
+Is it used for cleaning?
+Does it need water?
+Does it have a digital display?
+Does it have a timer?
+Is it powered by electricity?
+Does it have moving parts?
+Is it used for food storage?
+Is it used for cooling?
+Is it found in the laundry room?
+Does it make noise when in use?
+Is it typically plugged into a wall outlet?
+Is it used for personal grooming?
+Is it used for entertainment?
+Is it small and portable?
+Does it have buttons or controls?
+
+All these questions were then polled for common attributes. Those attributes are then going to be the key words that help us determine whether the user is getting closer or farther away from the object the computer has selected. For example, some attributes are electricity, heating_element, cooking, and cleaning. 
 
 ### Acting out the dialogue
 

@@ -1,5 +1,5 @@
 # Chatterboxes
-**COLLABORATORS: William Reid Hernandez wjr83 **
+**COLLABORATORS:** William Reid Hernandez (NetID:wjr83)
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -28,7 +28,7 @@ pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab3 updates"
 pi@ixe00:~/Interactive-Lab-Hub $ git push
 ```
 
-Option 2: On your your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2022Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
+Option 2: On your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2022Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
 
 ## Part 1.
 ### Setup 
@@ -69,7 +69,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
-**This is completed in greet.sh. I have it say "Hello, master Khushi Bhansali. Have a wonderful day." **
+**This is completed in greet.sh. I have it say "Hello, master Khushi Bhansali. Have a wonderful day."**
 ---
 Bonus:
 [Piper](https://github.com/rhasspy/piper) is another fast neural based text to speech package for raspberry pi which can be installed easily through python with:
@@ -109,9 +109,9 @@ You can use vosk with the microphone by running
 python test_microphone.py -m en
 ```
 
-\*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+\*\***Write your own shell file that verbally asks for a numerical-based input (such as a phone number, zipcode, number of pets, etc.) and records the answer the respondent provides.**\*\*
 
-**This is completed in numerical_input.sh. I have it ask how many pets I have and then it prints that to the screen. **
+**This is completed in numerical_input.sh. I have it ask how many pets I have and then it prints that to the screen.**
 
 
 ### Serving Pages
@@ -144,24 +144,24 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 We came up with many ideas before deciding to create a 20 questions game. We thought of making a pitch voice assistant for singers however that would require some AI since we would have to give feedback on pitch, duration, stability in voice etc. We then pivoted to a magic 8 ball assistant. Here the assistant give a magic oracle feeling to the user. The user could ask any question about their future and then the magic 8 ball tries to predict what happens. We thought this game would be too simple. Then we finally decided to make a 20 questions game and put a spin to it. Normally, the computer has to guess what the user is thinking of in 20 questions. We changed the game so that the user must guess what the computer is thinking of in 20 questions. 
 
 In order to determine if the user is going in the correct direction of guessing the object we mapped out some potential questions/dialogue: 
-Is it a kitchen appliance?
-Does it have a heating element?
-Is it used for cooking?
-Is it used for cleaning?
-Does it need water?
-Does it have a digital display?
-Does it have a timer?
-Is it powered by electricity?
-Does it have moving parts?
-Is it used for food storage?
-Is it used for cooling?
-Is it found in the laundry room?
-Does it make noise when in use?
-Is it typically plugged into a wall outlet?
-Is it used for personal grooming?
-Is it used for entertainment?
-Is it small and portable?
-Does it have buttons or controls?
+- Is it a kitchen appliance?
+- Does it have a heating element?
+- Is it used for cooking?
+- Is it used for cleaning?
+- Does it need water?
+- Does it have a digital display?
+- Does it have a timer?
+- Is it powered by electricity?
+- Does it have moving parts?
+- Is it used for food storage?
+- Is it used for cooling?
+- Is it found in the laundry room?
+- Does it make noise when in use?
+- Is it typically plugged into a wall outlet?
+- Is it used for personal grooming?
+- Is it used for entertainment?
+- Is it small and portable?
+- Does it have buttons or controls?
 
 All these questions were then polled for common attributes. Those attributes are then going to be the key words that help us determine whether the user is getting closer or farther away from the object the computer has selected. For example, some attributes are electricity, heating_element, cooking, and cleaning. 
 
@@ -169,8 +169,40 @@ All these questions were then polled for common attributes. Those attributes are
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+Video Link to 20 Questions Interaction: https://drive.google.com/file/d/18or8bsbefnD0qtyv1swlcrn-wtqBNrtD/view
+
+#### **Transcript**
+
+**Computer**: Hello, welcome to 20 questions! In this game, I will choose a household appliance and you have to ask yes and no questions to guess it. Are you ready to play?
+
+**User**: Awesome, let's play!
+
+**Computer**: All right, ask a question.
+
+**User**: Does the household appliance have dials?
+
+**Computer**: Yes.
+
+**User**: Hmm, does it have a heating element? 
+
+**Computer**: Yes. 
+
+**User**: Is it wider than a computer? 
+
+**Computer**: Yes.
+
+**User**: Hmm, is it a stove?
+
+**Computer**: Congratulations, you win. 
+
+
+
+\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+We imagined the user would take longer to guess the household appliance. We assumed the user would not ask yes or no questions. When we were recording we realized that we don't allow the user to ask clarifying questions before the game begins (we will address this in our code so that the user is able to ask questions regarding the rules of the game). The computer forgot to keep track of the number of questions the user was on. Additionally, after reflecting on the interaction, we realized we need to incorporate the following edge-case scenarios into our game's logic:
+- User with a strong accent where the computer might misinterpret the user's words for a different word.
+- User asking a question that the computer was not prepared for (keyword not in hard-coded code list).
+- Audio from the user is inaudible / too low and/or poor quality.
 
 
 ### Wizarding with the Pi (optional)

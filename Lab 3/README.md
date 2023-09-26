@@ -204,7 +204,25 @@ We imagined the user would take longer to guess the household appliance. We assu
 - User asking a question that the computer was not prepared for (keyword not in hard-coded code list).
 - Audio from the user is inaudible / too low and/or poor quality.
 
+\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+We imagined the user would take longer to guess the household appliance. We assumed the user would not ask yes or no questions. When we were recording we realized that we don't allow the user to ask clarifying questions before the game begins (we will address this in our code so that the user is able to ask questions regarding the rules of the game). The computer forgot to keep track of the number of questions the user was on. Additionally, after reflecting on the interaction, we realized we need to incorporate the following edge-case scenarios into our game's logic:
+- User with a strong accent where the computer might misinterpret the user's words for a different word.
+- User asking a question that the computer was not prepared for (keyword not in hard-coded code list).
+- Audio from the user is inaudible / too low and/or poor quality.
 
+### Prototyping the 20 Questions game on the Raspberry Pi
+
+https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/f46bc6e4-ab55-430f-878c-74a3df02b001
+
+**Things that worked well during the implementation of the 20 Questions game:**
+- Using the GoogleTTS with predefined text for the Raspberry Pi to speak worked well.
+- It was straightforward to build just a few .sh files as speaking templates and pass in arguments to these .sh files from a Python script to emulate the voice of the computer/controller of the game.
+
+**Things that don't work as well:**
+- Speech processing in Vosk has a significant delay. This made it very challenging to get the timing right for the 20 Questions game. 
+- Speech recognition in Vosk has a lot of errors, which made processing the recognized text rather challenging.
+- A lot of times only parts of the audio emitted by the user were recognized, and there was no clear way implemented yet to attempt a second time the same question (this was fixed on a later iteration). 
+  
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 

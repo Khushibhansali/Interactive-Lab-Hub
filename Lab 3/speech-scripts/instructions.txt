@@ -1,0 +1,7 @@
+Welcome to the Master Music Player. Here are your options. 
+Say record to press the green button and record a sound, 
+Say volume to press keyboard button and adjust volume with *, 
+Say tempo to press keyboard and have tempo adjusted by pressing numbers on the keypad followed by #, 
+Say sounds to press the individual touch sensors and play sounds. 0-1 is empty on the touch sensor to allow you to record a sound. The rest will be pre-recorded sounds. 
+Say layer to layer songs and press 3 sounds to layer on the touch sensors. 
+Say repeat to repeat the above.

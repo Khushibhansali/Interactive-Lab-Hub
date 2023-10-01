@@ -3,14 +3,15 @@
 # prerequisites: as described in https://alphacephei.com/vosk/install and also python module `sounddevice` (simply run command `pip install sounddevice`)
 # Example usage using Dutch (nl) recognition model: `python test_microphone.py -m nl`
 # For more help run: `python test_microphone.py -h`
-
+from __future__ import print_function
 import argparse
 import queue
 import sys
 import sounddevice as sd
 import subprocess
-
 from vosk import Model, KaldiRecognizer
+import qwiic_button
+import time
 
 q = queue.Queue()
 
@@ -52,6 +53,17 @@ parser.add_argument(
 args = parser.parse_args(remaining)
 
 try:
+
+    ##### Initialize Recording Button ####
+    my_button = qwiic_button.QwiicButton()
+
+    if my_button.begin() == False:
+        print("\nThe Qwiic Button isn't connected to the system. Please check your connection", \
+            file=sys.stderr)
+    
+    print("\nButton ready!")
+    ########################################
+
     if args.samplerate is None:
         device_info = sd.query_devices(args.device, "input")
         # soundfile expects an int, sounddevice provides a float:
@@ -83,8 +95,28 @@ try:
                 print(result)
                 if "sounds" in result.lower():  # play sounds from touch sensor
                     touch_process = subprocess.Popen(["python3", "touch.py"])
-                if "repeat" in result.lower():  # repeat instructions
-                    subprocess.run(["espeak", "-ven+f2", "-k5", "-s150", "--stdout", "$(cat instructions.txt)"], stdout=subprocess.PIPE)
+                if "guitar" in result.lower():  # play sounds from touch sensor
+                    guitar_process = subprocess.Popen(["python3", "guitar.py"])
+                if "instruction" in result.lower():  # repeat instructions
+                    # subprocess.call(['sh', './dj_instructions.sh'])
+                    subprocess.call(['sh', './dj_instructions.sh'])
+                    data = " " # Avoid repeating instructions over and over again
+                if "record" in result.lower():
+                    print("Press the green button to start recording:")
+
+                    while True:
+                        if my_button.is_button_pressed() == True:
+                            # print("\nThe button is pressed!")
+                            my_button.LED_on(brightness=100)
+                            print("Recording in progress...")
+                            subprocess.call(['arecord', '-d', '5', '-c', '2', 'sounds/recording.wav']) 
+                            print("Recording complete!")
+                            my_button.LED_off()
+                            break
+                        
+                        # else:
+                        #     print("\nThe button is not pressed.")
+
             if dump_fn is not None:
                 dump_fn.write(data)
 

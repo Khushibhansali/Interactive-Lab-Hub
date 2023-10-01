@@ -12,16 +12,3 @@ say "Say record to press the green button and record a sound, "
 # say "Say tempo to press keyboard and have tempo adjusted by pressing numbers on the keypad followed by #, "
 # say "Say layer to layer songs and press 3 sounds to layer on the touch sensors. "
 say "Say instructions to hear the instructions again."
-
-# speak_instructions() {
-#         espeak -ven+f2 -k5 -s150 --stdout "$(cat instructions.txt)" | aplay
-# }
-
-# Function to capture user speech and implement the action
-capture_and_process() {
-    python3 player.py # Replace with the actual name of your Python script
-}
-
-# Execute functions
-# speak_instructions
-capture_and_process

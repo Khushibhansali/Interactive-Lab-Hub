@@ -235,8 +235,13 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+ We could improve the complexity of our game. Currently, we instructed the computer to select a household appliance and then have the user guess what the computer is thinking of. But in doing so, the user was almost always able to guess it and not need 20 questions to complete the game. Another area of improvement is that we assumed the user would not ask yes or no questions. When we were recording we realized that we don't allow the user to ask clarifying questions before the game begins (we will address this in our code so that the user is able to ask questions regarding the rules of the game). The computer forgot to keep track of the number of questions the user was on. Additionally, after reflecting on the interaction, we realized we need to incorporate the following edge-case scenarios into our game's logic. First, a user with a strong accent where the computer might misinterpret the user's words for a different word. Second, user who asks a question that the computer was not prepared for (keyword not in hard-coded code list). Last, if the audio from the user is inaudible / too low and/or poor quality.
+  
+3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+We couldv'e used other sensors like a green light for example to indicate that the user guessed correctly. We could also then display a red light if the user guessed incorrectly. We could also have a visual display of instructions so that the user knows exactly how the game works instead of relying on the microphone.
+   
+5. Make a new storyboard, diagram and/or script based on these reflections.
+<img alt="image" src="storyboard/1.jpg">
 
 ## Prototype your system
 
@@ -246,6 +251,7 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+<img alt="image" src="storyboard/1.jpg">
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -255,11 +261,13 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+\*\** 
+
+*\*\*
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+\*\** It was great how many options of sounds the user had. The user could swap any objects connected to the touch sensor. What didn't work well was the microphone's voice capture. We wanted to make the instructions appear in numerical order to the user. But the microphone never understood four and instead kept hearing for. So when we changed that system to keyword controlled actions, it was smoother. However, when asking the microphone to repeat instructions it tends to mess up and play the instuctions three times becuase it thinks the user said the keyword for it, three times even when they didn't. \*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 

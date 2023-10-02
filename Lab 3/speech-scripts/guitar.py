@@ -32,7 +32,7 @@ try:
                     a = False
                     break
                 if i in [1]:
-                    play_sound("sounds/guitar/1_mixkit-bass-guitar-single-note-2331.wav")
+                    play_sound("sounds/recording.wav")
                 if i in [2, 3]:
                     play_sound("sounds/guitar/2_mixkit-cool-guitar-riff-2321.wav")
                 if i in [4, 5]:
@@ -42,7 +42,7 @@ try:
                 if i in [8, 9]:
                     play_sound("sounds/guitar/5_mixkit-happy-guitar-chords-2319.wav")
                 if i in [10, 11]:
-                    play_sound("sounds/recording.wav")
+                    play_sound("sounds/guitar/1_mixkit-bass-guitar-single-note-2331.wav")
                 
         time.sleep(0.1)  # Adjust sleep duration as needed
 except KeyboardInterrupt:

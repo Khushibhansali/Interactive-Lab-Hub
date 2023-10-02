@@ -86,6 +86,7 @@ try:
         print("#" * 80)
 
         rec = KaldiRecognizer(model, args.samplerate)
+        counter_record = 0
         while True:
             data = q.get()
             if rec.AcceptWaveform(data):
@@ -93,7 +94,7 @@ try:
             else:
                 result = rec.PartialResult()
                 print(result)
-                if "sounds" in result.lower():  # play sounds from touch sensor
+                if "beat" in result.lower():  # play sounds from touch sensor
                     touch_process = subprocess.Popen(["python3", "touch.py"])
                 if "guitar" in result.lower():  # play sounds from touch sensor
                     guitar_process = subprocess.Popen(["python3", "guitar.py"])
@@ -101,10 +102,12 @@ try:
                     # subprocess.call(['sh', './dj_instructions.sh'])
                     subprocess.call(['sh', './dj_instructions.sh'])
                     data = " " # Avoid repeating instructions over and over again
+                if "music" in result.lower():
+                    layer_process = subprocess.Popen(["python3", "layer.py"])
                 if "record" in result.lower():
                     print("Press the green button to start recording:")
 
-                    while True:
+                    while counter_record == 0:
                         if my_button.is_button_pressed() == True:
                             # print("\nThe button is pressed!")
                             my_button.LED_on(brightness=100)
@@ -112,7 +115,7 @@ try:
                             subprocess.call(['arecord', '-d', '5', '-c', '2', 'sounds/recording.wav']) 
                             print("Recording complete!")
                             my_button.LED_off()
-                            recording = False
+                            counter_record = 1
                             break
                             
                         

@@ -112,7 +112,9 @@ try:
                             subprocess.call(['arecord', '-d', '5', '-c', '2', 'sounds/recording.wav']) 
                             print("Recording complete!")
                             my_button.LED_off()
+                            recording = False
                             break
+                            
                         
                         # else:
                         #     print("\nThe button is not pressed.")

@@ -241,7 +241,7 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 We couldv'e used other sensors like a green light for example to indicate that the user guessed correctly. We could also then display a red light if the user guessed incorrectly. We could also have a visual display of instructions so that the user knows exactly how the game works instead of relying on the microphone.
    
 5. Make a new storyboard, diagram and/or script based on these reflections.
-<img alt="image" src="storyboard/1.jpg">
+<img alt="image" src="part2storyboards/storyboard2.jpg">
 
 ## Prototype your system
 
@@ -251,7 +251,7 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
-<img alt="image" src="storyboard/1.jpg">
+<img alt="image" src="part2storyboards/wireframe.jpg">
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -262,19 +262,20 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\** 
+The system excelled in transforming a diverse array of objects into musical instruments, showcasing versatility in creating unique auditory experiences. The integration with the Raspberry Pi facilitated a compact and accessible platform for deploying the music player system, ensuring ease of use and affordability.
 
-*\*\*
+However, certain limitations surfaced during the interaction. The system's autonomy was constrained, relying on human inputs to initiate and guide the musical transformation process. It also didn't allow the user to edit the volume, tempo, pitch of the prerecorded sounds. This dependency on Wizard of Oz interactions highlighted a need for more sophisticated autonomous capabilities. Additionally, while the system demonstrated adaptability to various objects, there were instances where recognition and responsiveness were not consistently precise, revealing opportunities for refinement in object detection algorithms. For example,  a user with a strong accent where the computer might misinterpret the user's words for a different word. Second, user who asks a question that the computer was not prepared for (keyword not in hard-coded code list). Last, if the audio from the user is inaudible / too low and/or poor quality. We weren't able to get to handle these edge cases and errors in these time constraints, making the system not reach its potential.  *\*\*
 
 ### What worked well about the controller and what didn't?
 
-\*\** It was great how many options of sounds the user had. The user could swap any objects connected to the touch sensor. What didn't work well was the microphone's voice capture. We wanted to make the instructions appear in numerical order to the user. But the microphone never understood four and instead kept hearing for. So when we changed that system to keyword controlled actions, it was smoother. However, when asking the microphone to repeat instructions it tends to mess up and play the instuctions three times becuase it thinks the user said the keyword for it, three times even when they didn't. \*\*
+\*\** It was great how many options of sounds the user had. The user could swap any objects connected to the touch sensor. If we had more time we would've connected the so many different objects to the touch sensors to see what the output would be. For example, scissors, umbrella rod, copper taped items, granola aluminium wrappers, jewelry, paperclips, water. 
+
+What didn't work well was the microphone's voice capture. We wanted to make the instructions appear in numerical order to the user. But the microphone never understood four and instead kept hearing for. So when we changed that system to keyword controlled actions, it was smoother. However, when asking the microphone to repeat instructions it tends to mess up and play the instuctions three times becuase it thinks the user said the keyword for it, three times even when they didn't. *\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
+\*\** In analyzing the Wizard of Oz interactions for our music player project on the Raspberry Pi, we observed that users responded positively to intuitive interations for different musical effects. However, some challenges arose in accurately translating certain object interactions into desired musical outcomes. To design a more autonomous version, we need to focus on refining gesture recognition algorithm and incorporating user feedback for improved responsiveness to enhance the system's ability to adapt to diverse user interactions with various objects. *\*\*
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
-
+\*\**To create a dataset of interactions using our music player system, we can implement data logging mechanisms that record user generated sounds, object interactions, and corresponding musical responses. This dataset could include information about the type of object, the specific gestures employed, and the resulting musical output. Additionally, incorporating sensors such as accelerometers, gyroscopes, and touch sensors could provide valuable data on the dynamics of object manipulation. Integrating audio sensors to capture ambient sounds during interactions would offer context, and incorporating computer vision for recognizing object types and user gestures could enhance the dataset's richness. *\*\*

@@ -255,9 +255,15 @@ The system should:
 <img alt="image" src="part2storyboards/wireframe.jpg">
 
 *Include videos or screencaptures of both the system and the controller.*
+<img alt="image" src="setup2.jpg">
+We've incorpated 3 sensors for this assignment. The main component is the voice interaction which guides the user in playing instructions, playing sounds, and recording user generated sounds. The second sensor we used was a button. We programmed the button to start recording user generated sounds from the microphone. The 3rd sensor we used was a touch sensor. We plugged random objects like a aluminium wrapper for a granola bar, a mug, altoids box, a tin lid, an umbrella, and more onto the touch sensor. We downloaded rapper beats and guitar sounds as wav files and programmed them onto specific ports on the touch sensor. So then the individual objects were mapped to those ports. We also allowed the user to play their recorded file using the 1st port on the touch sensor.  
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+
+Test 1: https://drive.google.com/file/d/16SrwlbJvglBM9fTPEG8mVKpvt0pfzus9/view?usp=sharing
+Test 2: https://drive.google.com/file/d/1T2vmu2gTri7jIbcxwpTxcQ-09_eFSmLU/view?usp=sharing
 
 Answer the following:
 
@@ -265,7 +271,13 @@ Answer the following:
 
 The system excelled in transforming a diverse array of objects into musical instruments, showcasing versatility in creating unique auditory experiences. The integration with the Raspberry Pi facilitated a compact and accessible platform for deploying the music player system, ensuring ease of use and affordability.
 
-However, certain limitations surfaced during the interaction. The system's autonomy was constrained, relying on human inputs to initiate and guide the musical transformation process. It also didn't allow the user to edit the volume, tempo, pitch of the prerecorded sounds. This dependency on Wizard of Oz interactions highlighted a need for more sophisticated autonomous capabilities. Additionally, while the system demonstrated adaptability to various objects, there were instances where recognition and responsiveness were not consistently precise, revealing opportunities for refinement in object detection algorithms. For example,  a user with a strong accent where the computer might misinterpret the user's words for a different word. Second, user who asks a question that the computer was not prepared for (keyword not in hard-coded code list). Last, if the audio from the user is inaudible / too low and/or poor quality. We weren't able to get to handle these edge cases and errors in these time constraints, making the system not reach its potential.  
+However, certain limitations surfaced during the interaction. Our intial set up included using water as a random item you could touch and a sound would play. However, after some user testing we found out that water continously conducts electricity so it would be playing sounds even when the user didn't touch it. 
+Here's a picture of the initial setup
+<img alt="image" src="setup1.jpg">
+
+Here's a video of why that was a problem: https://drive.google.com/file/d/1sZiTmi3b8QzF2jGA98JnZuCitEs0bo9X/view?usp=sharing
+
+Another problem we faced, which was demonstrated in test 2 was that the microphone is not good at understanding people with accents. It had a really hard time picking up user instruction even though the user was loud, audible, and close to the microphone. Additionally, in one of our tests, a user said a keyword that we hadn't programmed so we had to stop filming and instruct them on what key words control the system instead of having error handling.In all, we weren't able to get to handle these edge cases and errors in these time constraints, making the system not reach its potential.  
 
 ### What worked well about the controller and what didn't?
 

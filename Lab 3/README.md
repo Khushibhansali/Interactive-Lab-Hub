@@ -1,5 +1,5 @@
 # Chatterboxes
-**COLLABORATORS:** William Reid Hernandez (NetID:wjr83)
+**COLLABORATORS:** [William Reid Hernandez (NetID:wjr83)](https://github.com/wjr83/Interactive-Lab-Hub/tree/Fall2023/Lab%203)
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -230,19 +230,19 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 # Lab 3 Part 2
 
-For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
+For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from Part 1.
 
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
    
- We could improve the complexity of our game. Currently, we instructed the computer to select a household appliance and then have the user guess what the computer is thinking of. But in doing so, the user was almost always able to guess it and not need 20 questions to complete the game. Another area of improvement is that we assumed the user would not ask yes or no questions. When we were recording we realized that we don't allow the user to ask clarifying questions before the game begins (we will address this in our code so that the user is able to ask questions regarding the rules of the game). The computer forgot to keep track of the number of questions the user was on. Additionally, after reflecting on the interaction, we realized we need to incorporate the following edge-case scenarios into our game's logic. First, a user with a strong accent where the computer might misinterpret the user's words for a different word. Second, user who asks a question that the computer was not prepared for (keyword not in hard-coded code list). Last, if the audio from the user is inaudible / too low and/or poor quality.
+ We could improve the complexity of our game. Currently, we instruct the computer to select a household appliance and then have the user guess what the computer is thinking of. But in doing so, the user was almost always able to guess it and did not need 20 questions to complete the game. Another area of improvement is that we assumed the user would not ask yes or no questions. When we were recording we realized that we don't allow the user to ask clarifying questions before the game begins (we will address this in our code so that the user is able to ask questions regarding the rules of the game). The computer forgot to keep track of the number of questions the user was on. Additionally, after reflecting on the interaction, we realized we needed to incorporate the following edge-case scenarios into our game's logic. First, a user with a strong accent where the computer might misinterpret the user's words for a different word. Second, the user who asks a question that the computer was not prepared for (keyword not in hard-coded code list). Last, if the audio from the user is inaudible / too low and/or poor quality.
   
 3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 
 We could've used other sensors like a green light for example to indicate that the user guessed correctly. We could also then display a red light if the user guessed incorrectly. We could also have a visual display of instructions so that the user knows exactly how the game works instead of relying on the microphone.
    
-5. Make a new storyboard, diagram and/or script based on these reflections.
+5. Make a new storyboard, diagram, and/or script based on these reflections.
 <img alt="image" src="part2storyboards/storyboard2.jpg">
 
 ## Prototype your system
@@ -250,22 +250,43 @@ We could've used other sensors like a green light for example to indicate that t
 The system should:
 * use the Raspberry Pi 
 * use one or more sensors
-* require participants to speak to it. 
+* require participants to speak to it.
+
+### Install Dependencies for Sensors:
+In order to get the Sparkfun Qwiic Green Button working, the instructions on the following GitHub pages must be followed to install the necessary dependencies:
+- https://github.com/sparkfun/Qwiic_Button_Py
+- https://github.com/sparkfun/Qwiic_Py
+- https://github.com/sparkfun/Qwiic_I2C_Py
+
+For the capacitive touch sensor to work, install the following package through pip:
+- ```pip install adafruit-circuitpython-mpr121```
+
+Additionally, run the following command on the shell file describe below:
+- ```chmod +x music_player.sh```
+
+### Credit to the Sources of the Musical Notes Used in this Project
+- https://mixkit.co/free-sound-effects/music/
+- https://www.ee.columbia.edu/~dpwe/sounds/instruments/
+- https://www.soundsnap.com/search/audio?query=note
+- https://zenodo.org/record/3685367
 
 *Document how the system works*
 <img alt="image" src="part2storyboards/wireframe.jpg">
 
 *Include videos or screencaptures of both the system and the controller.*
 <img alt="image" src="setup2.png">
-We've incorpated 3 sensors for this assignment. The main component is the voice interaction which guides the user in playing instructions, playing sounds, and recording user generated sounds. The second sensor we used was a button. We programmed the button to start recording user generated sounds from the microphone. The 3rd sensor we used was a touch sensor. We plugged random objects like a aluminium wrapper for a granola bar, a mug, altoids box, a tin lid, an umbrella, and more onto the touch sensor. We downloaded rapper beats and guitar sounds as wav files and programmed them onto specific ports on the touch sensor. So then the individual objects were mapped to those ports. We also allowed the user to play their recorded file using the 1st port on the touch sensor.  
+We've incorporated 3 sensors for this assignment. The main component is the voice interaction which guides the user in playing instructions, playing sounds, and recording user-generated sounds. The second sensor we used was a button. We programmed the button to start recording user-generated sounds from the microphone. The 3rd sensor we used was a touch sensor. We plugged random objects like an aluminum wrapper for a granola bar, a mug, an Altoids box, a tin lid, an umbrella, and more onto the touch sensor. We downloaded rapper beats and guitar sounds as WAV files and programmed them onto specific ports on the touch sensor. Then the individual objects were mapped to those ports. We also allowed the user to play their recorded file using the 1st port on the touch sensor.  
 
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
-Test 1: https://drive.google.com/file/d/16SrwlbJvglBM9fTPEG8mVKpvt0pfzus9/view?usp=sharing
+> - **Test 1:** https://drive.google.com/file/d/16SrwlbJvglBM9fTPEG8mVKpvt0pfzus9/view?usp=sharing
 
-Test 2: https://drive.google.com/file/d/1T2vmu2gTri7jIbcxwpTxcQ-09_eFSmLU/view?usp=sharing
+> - **Test 2:** https://drive.google.com/file/d/1T2vmu2gTri7jIbcxwpTxcQ-09_eFSmLU/view?usp=sharing
+
+> - **Test 3 (explanation of Music Player logic by the developers of the interactive device):** https://drive.google.com/file/d/17zaYvy2DhSgsytYhwVt7JZ_tkFLlfvl8/view?usp=drive_link
+
 
 Answer the following:
 
@@ -273,25 +294,25 @@ Answer the following:
 
 The system excelled in transforming a diverse array of objects into musical instruments, showcasing versatility in creating unique auditory experiences. The integration of random objects furthered the ingenuity of our system. We had successfully programmed recording the user from the microphone, playing sounds from the touch sensor, and allowing the user to make a song by playing multiple sounds simultaneously (which is demonstrated in test 2). 
 
-However, certain limitations surfaced during the interaction. Our intial set up included using water as a random item you could touch and a sound would play. However, after some user testing we found out that water continously conducts electricity so it would be playing sounds even when the user didn't touch it. 
+However, certain limitations surfaced during the interaction. Our initial setup included using water as a random item you could touch and a sound would play. However, after some user testing, we found out that water continuously conducts electricity so it would be playing sounds even when the user didn't touch it. 
 Here's a picture of the initial setup:
 
 <img alt="image" src="setup1.jpg">
 
 Here's a video of why that was a problem: https://drive.google.com/file/d/1sZiTmi3b8QzF2jGA98JnZuCitEs0bo9X/view?usp=sharing
 
-Another problem we faced, which was demonstrated in test 2 was that the microphone is not good at understanding people with accents. It had a really hard time picking up user instruction even though the user was loud, audible, and close to the microphone. Additionally, in one of our tests, a user said a keyword that we hadn't programmed so we had to stop filming and instruct them on what key words control the system instead of having error handling.In all, we weren't able to get to handle these edge cases and errors in these time constraints, making the system not reach its potential.  
+Another problem we faced, which was demonstrated in test 2 was that the microphone was not good at understanding people with accents. It had a really hard time picking up user instructions even though the user was loud, audible, and close to the microphone. Additionally, in one of our tests, a user said a keyword that we hadn't programmed so we had to stop filming and instruct them on what keywords control the system instead of having error handling. In all, we weren't able to handle these edge cases and errors in these time constraints, making the system not reach its potential.  
 
 ### What worked well about the controller and what didn't?
 
-It was great how many options of sounds the user had. The user could swap any objects connected to the touch sensor. If we had more time we would've connected the so many different objects to the touch sensors to see what the output would be. For example, scissors, umbrella rod, copper taped items, granola aluminium wrappers, jewelry, paperclips, water. 
+It was great how many options of sounds the user had. The user could swap any objects connected to the touch sensor. If we had more time we would've connected so many different objects to the touch sensors to see what the output would be. For example, scissors, umbrella rod, copper-taped items, granola aluminum wrappers, jewelry, paperclips, and water. 
 
-What didn't work well was the microphone's voice capture. We wanted to make the instructions appear in numerical order to the user. But the microphone never understood four and instead kept hearing for. So when we changed that system to keyword controlled actions, it was smoother. However, when asking the microphone to repeat instructions it tends to mess up and play the instuctions three times because it thinks the user said the keyword for it, three times even when they didn't. 
+What didn't work well was the microphone's voice capture. We wanted to make the instructions appear in numerical order to the user. But the microphone never understood four and instead kept hearing for. So when we changed that system to keyword-controlled actions, it was smoother. However, when asking the microphone to repeat instructions it tends to mess up and play the instructions three times because it thinks the user said the keyword for it, three times even when they didn't. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-In analyzing the Wizard of Oz interactions for our music player project on the Raspberry Pi, we observed that users responded positively to intuitive interations for different musical effects. However, some challenges arose in accurately translating certain object interactions into desired musical outcomes. To design a more autonomous version, we need to focus on refining gesture recognition algorithm and incorporating user feedback for improved responsiveness to enhance the system's ability to adapt to diverse user interactions with various objects. 
+In analyzing the Wizard of Oz interactions for our music player project on the Raspberry Pi, we observed that users responded positively to intuitive interactions for different musical effects. However, some challenges arose in accurately translating certain object interactions into desired musical outcomes. To design a more autonomous version, we need to focus on refining the gesture recognition algorithm and incorporating user feedback for improved responsiveness to enhance the system's ability to adapt to diverse user interactions with various objects. 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-To create a dataset of interactions using our music player system, we can implement data logging mechanisms that record user generated sounds, object interactions, and corresponding musical responses. This dataset could include information about the type of object, the specific gestures employed, and the resulting musical output. Additionally, incorporating sensors such as accelerometers, gyroscopes, and touch sensors could provide valuable data on the dynamics of object manipulation. Integrating audio sensors to capture ambient sounds during interactions would offer context, and incorporating computer vision for recognizing object types and user gestures could enhance the dataset's richness. 
+To create a dataset of interactions using our music player system, we can implement data-logging mechanisms that record user-generated sounds, object interactions, and corresponding musical responses. This dataset could include information about the type of object, the specific gestures employed, and the resulting musical output. Additionally, incorporating sensors such as accelerometers, gyroscopes, and touch sensors could provide valuable data on the dynamics of object manipulation. Integrating audio sensors to capture ambient sounds during interactions would offer context, and incorporating computer vision for recognizing object types and user gestures could enhance the dataset's richness. 

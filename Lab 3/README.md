@@ -255,7 +255,7 @@ The system should:
 <img alt="image" src="part2storyboards/wireframe.jpg">
 
 *Include videos or screencaptures of both the system and the controller.*
-<img alt="image" src="setup2.jpg">
+<img alt="image" src="setup2.png">
 We've incorpated 3 sensors for this assignment. The main component is the voice interaction which guides the user in playing instructions, playing sounds, and recording user generated sounds. The second sensor we used was a button. We programmed the button to start recording user generated sounds from the microphone. The 3rd sensor we used was a touch sensor. We plugged random objects like a aluminium wrapper for a granola bar, a mug, altoids box, a tin lid, an umbrella, and more onto the touch sensor. We downloaded rapper beats and guitar sounds as wav files and programmed them onto specific ports on the touch sensor. So then the individual objects were mapped to those ports. We also allowed the user to play their recorded file using the 1st port on the touch sensor.  
 
 

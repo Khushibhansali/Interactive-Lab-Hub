@@ -264,16 +264,18 @@ We've incorpated 3 sensors for this assignment. The main component is the voice 
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 Test 1: https://drive.google.com/file/d/16SrwlbJvglBM9fTPEG8mVKpvt0pfzus9/view?usp=sharing
+
 Test 2: https://drive.google.com/file/d/1T2vmu2gTri7jIbcxwpTxcQ-09_eFSmLU/view?usp=sharing
 
 Answer the following:
 
 ### What worked well about the system and what didn't?
 
-The system excelled in transforming a diverse array of objects into musical instruments, showcasing versatility in creating unique auditory experiences. The integration with the Raspberry Pi facilitated a compact and accessible platform for deploying the music player system, ensuring ease of use and affordability.
+The system excelled in transforming a diverse array of objects into musical instruments, showcasing versatility in creating unique auditory experiences. The integration of random objects furthered the ingenuity of our system. We had successfully programmed recording the user from the microphone, playing sounds from the touch sensor, and allowing the user to make a song by playing multiple sounds simultaneously (which is demonstrated in test 2). 
 
 However, certain limitations surfaced during the interaction. Our intial set up included using water as a random item you could touch and a sound would play. However, after some user testing we found out that water continously conducts electricity so it would be playing sounds even when the user didn't touch it. 
-Here's a picture of the initial setup
+Here's a picture of the initial setup:
+
 <img alt="image" src="setup1.jpg">
 
 Here's a video of why that was a problem: https://drive.google.com/file/d/1sZiTmi3b8QzF2jGA98JnZuCitEs0bo9X/view?usp=sharing

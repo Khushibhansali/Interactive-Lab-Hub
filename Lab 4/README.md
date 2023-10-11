@@ -265,6 +265,9 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 1.	**Musical painting** was chosen for Part 1 of Lab 4.
+> - ** How I made it happen:** https://drive.google.com/file/d/1BsVfzuWh_NoRWDA-dklnQ7_ReMfcErx3/view?usp=sharing
+
+> - **Test 3 (explanation of Music Player logic by the developers of the interactive device):** https://drive.google.com/file/d/1IGTGFBhhlMhjE33mpCJneUV5W9Ue77PH/view?usp=sharing
 
 ### Part D
 ### Physical considerations for displaying information and housing parts

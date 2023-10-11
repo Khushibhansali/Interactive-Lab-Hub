@@ -269,7 +269,6 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 ### Part D
 ### Physical considerations for displaying information and housing parts
 
-
 Here is a Pi with a paper faceplate on it to turn it into a display interface:
 
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>

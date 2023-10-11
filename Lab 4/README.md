@@ -270,7 +270,7 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 https://drive.google.com/file/d/1BsVfzuWh_NoRWDA-dklnQ7_ReMfcErx3/view?usp=sharing
 
-> Test 3 (explanation of Music Player logic by the developers of the interactive device):
+>Final product musical painting:
 
 https://drive.google.com/file/d/1IGTGFBhhlMhjE33mpCJneUV5W9Ue77PH/view?usp=sharing
 

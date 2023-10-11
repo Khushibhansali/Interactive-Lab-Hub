@@ -265,9 +265,14 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 1.	**Musical painting** was chosen for Part 1 of Lab 4.
-> - ** How I made it happen:** https://drive.google.com/file/d/1BsVfzuWh_NoRWDA-dklnQ7_ReMfcErx3/view?usp=sharing
+   
+> How I made it happen:
 
-> - **Test 3 (explanation of Music Player logic by the developers of the interactive device):** https://drive.google.com/file/d/1IGTGFBhhlMhjE33mpCJneUV5W9Ue77PH/view?usp=sharing
+https://drive.google.com/file/d/1BsVfzuWh_NoRWDA-dklnQ7_ReMfcErx3/view?usp=sharing
+
+> Test 3 (explanation of Music Player logic by the developers of the interactive device):
+
+https://drive.google.com/file/d/1IGTGFBhhlMhjE33mpCJneUV5W9Ue77PH/view?usp=sharing
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -298,24 +303,6 @@ This design can be made by scoring a long strip of corrugated cardboard of width
 | --- | --- | --- | --- | --- | 
 
 Fold the first flap of the strip so that it sits flush against the back of the face plate, and tape, velcro or hot glue it in place. This will make a H x X interface, with a box of Z x X footprint (which you can adapt to the things you want to put in the box) and a height Y in the back. 
-
-Here is an example:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
-
-Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
- 
-**\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
-
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
-
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
-
-Build a cardboard prototype of your design.
-
-**\*\*\*Document your rough prototype.\*\*\***
 
 
 LAB PART 2

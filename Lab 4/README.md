@@ -181,7 +181,6 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proxi
 Usually, sensors need to be positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
-
 9 total ideas are described below. Sketches were drawn for 5 of the ideas whose primary sensor was the capacitive sensor.
 
 
@@ -262,20 +261,14 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 * How should the information on the small display be designed such that it maximizes readability?
 * How fun or amusing will users find these interactive devices? How long will they want to play for?
 
+We would need to physically prototype any inputs from the user, sensor connections, and proximity to the interactive device.
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 1.	**Musical painting** was chosen for Part 1 of Lab 4.
-   
-> How I made it happen:
-
-https://drive.google.com/file/d/1BsVfzuWh_NoRWDA-dklnQ7_ReMfcErx3/view?usp=sharing
-
->Final product musical painting:
-
-https://drive.google.com/file/d/1IGTGFBhhlMhjE33mpCJneUV5W9Ue77PH/view?usp=sharing
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
+
 
 Here is a Pi with a paper faceplate on it to turn it into a display interface:
 
@@ -304,6 +297,85 @@ This design can be made by scoring a long strip of corrugated cardboard of width
 
 Fold the first flap of the strip so that it sits flush against the back of the face plate, and tape, velcro or hot glue it in place. This will make a H x X interface, with a box of Z x X footprint (which you can adapt to the things you want to put in the box) and a height Y in the back. 
 
+Here is an example:
+
+<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
+
+Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+ 
+**\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+
+Label: Canvas with an OLED screen and copper tape
+
+<img src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/dd49d034-ed90-4f1e-907c-fb927238bb47"  width="500"/>
+
+* Sketch #1: OLED Screen outside of canvas, next to the artist's name and description of the artwork. 
+
+> <img src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/909f5d54-5e7a-40f3-ba4e-d4f1de9c5226"  width="800"/>
+
+* Sketch #2: OLED Screen centered on canvas, rotated 90 degrees (vertical orientation).
+
+> <img src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/bb8a9205-1857-4e35-b7db-73c7fb7917d9"  width="500"/>
+
+* Sketch #3: OLED Screen outside of the canvas, centered below the canvas.
+
+> <img src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/78681d14-df55-4134-a4b4-db4024f90384"  width="500"/>
+
+* Sketch #4: OLED Screen on canvas, top left corner of the canvas.
+
+> <img src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/cbb065a6-38a6-4af6-ac56-19159814d5ac"  width="500"/>
+
+* Sketch #5: OLED Screen on canvas, bottom right corner of the canvas.
+
+> <img src="https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/393a64b5-f7b6-4a80-aa62-ed327b78b610"  width="500"/>
+
+
+**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?\*\*\***
+* What should be the primary interaction? The OLED Screen or the sounds emitted from the canvas?
+>* Depending on the answer to the previous question, where should the OLED screen be positioned such that it does not subtract or distract from the immersive musical experience?
+>>* At the same time, we would like the OLED screen to be noticed (even if it's deemed secondary in importance relative to the sounds). What would be the best way to achieve this?
+>* How close to the canvas should users be to best appreciate the coupled interaction between the OLED screen, painting, and sounds emitted from the canvas?
+>* The OLED Screen's electric circuitry should not cause the canvas to emit sounds (the OLED screen needs to be properly insulated from the conductive paint that's connected to the capacitive sensor).
+>* How would a new user know to touch the canvas?
+We would need to physically prototype the interaction with new users (50% with / 50% without telling them instructions of how the art piece works), paying attention to the distance users maintain from the interactive device and if they notice the OLED screen (after how much time do they notice the OLED screen, is it ignored shortly after, etc.).
+
+**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+* Sketch #3 was chosen (OLED Screen outside of the canvas, centered below the canvas).
+
+**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+* Sketch #3 was chosen (OLED Screen outside of the canvas, centered below the canvas) because it provided the closest proximity of the OLED screen to the canvas without blocking any of the painted artwork. Additionally, having the OLED screen on the canvas required more complexity to properly insulate the back of the OLED Screen so that the OLED screen does not activate any of the sensors on the capacitive sensor through the conductive paint on the canvas. The art piece will be displayed in a gallery along with other paintings. When visiting museums and art galleries, Khushi and William agreed that most visitors look at the art piece first, and only a few stop to read the artist's name and description of the piece (which is why "Sketch #1" was **not** chosen to prototype). 
+
+Build a cardboard prototype of your design.
+
+**\*\*\*Document your rough prototype.\*\*\***
+> Explanation of how the canvas was built:
+>* https://drive.google.com/file/d/1BsVfzuWh_NoRWDA-dklnQ7_ReMfcErx3/view?usp=sharing
+
+
+Work in Progress: 
+
+> https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/b6ee3583-9b68-4e4e-b652-fac1c0158c52
+
+
+
+> https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/e4afe588-acd1-4dbe-8542-afc698f1d670
+
+
+
+> https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/8510b69e-f023-466b-a832-77fe28af47d3
+
+
+
+> https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/98188df9-7155-4f9c-8754-294a0231ea78
+
+
+
+> https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/742fa614-d0a6-4fbf-9ffd-8219caba780c
+
+
+
+> Final Working Prototype:
+>* https://drive.google.com/file/d/1IGTGFBhhlMhjE33mpCJneUV5W9Ue77PH/view?usp=sharing
 
 LAB PART 2
 
@@ -369,4 +441,3 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
-

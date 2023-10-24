@@ -500,6 +500,8 @@ This was our final product.
 
 <img src="./Images/img7.png" width="400px" height="400px"/>
 
-In this prototype, we are using an OLED screen to display game instructions and show the user a live point display, and a modifiable timer. We are also using an LED stick for 2 games to indicate whose turn it is. We use a rotary encoder by turning it to pick different games to play from the OLED screen display. We use the proximity sensor and the distance sensor on each hoop to measure whether a ball has made it through the hoop.  
+**Works like:** In this prototype, we are using an OLED screen to display game instructions, and show the user a live point display, and a modifiable timer. We are also using an LED stick for 2 games to indicate whose turn it is. We use a rotary encoder by turning it to pick different games to play from the OLED screen display. We use the proximity sensor and the distance sensor on each hoop to measure whether a ball has made it through the hoop. We wanted to use these sensors to replicate the feeling of playing a real basketball game where points increase when you shoot a ball through the hoop. We tried to incorporate a few minigames to add depth to our game. 
 
-**Here's a recording of our [final interaction](https://drive.google.com/file/d/1Ph0qyhnytpZ1bpy8CmlznIPA5ZA2bH7j/view?usp=sharing)**
+**Acts like: Here's a recording of our [final interaction](https://drive.google.com/file/d/1Ph0qyhnytpZ1bpy8CmlznIPA5ZA2bH7j/view?usp=sharing)**
+
+**Reflections:** We really struggled with I/O errors due to the fact that so many sensors were being used simulatenously. We tried troubleshooting with different cables that connected the sensors, changing the order of the sensors, as well as removing some sensors and testing but all failed. Additionally, with every game with had to reprogram the proximity sensor and the distance sensor readings to different values because they vaired greatly when we placed the sensors on the back of the hoop, versus underneath the hoop versus connected to the cardboard. 

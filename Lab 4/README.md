@@ -454,7 +454,7 @@ pip install opencv-python pyaudio pygame
 Once executed the script will render the camera output, press 'q' to stop video and record a sound through the microphone which will be played back by specificing the audio output. 
 
 ---
-The video is rendered locally on the pi. For wizarding interactions and prototyping it can be necessary to stream the video to another device such as your laptop. A wizard, observing the user and acting as a computer vision algorithm, can then trigger interactions remotley, such as we did in the tinkerbelle lab.
+The video is rendered locally on the pi. For wizarding interactions and prototyping it can be necessary to stream the video to another device such as your laptop. A wizard, observing the user and acting as a computer vision algorithm, can then trigger interactions remotely, such as we did in the tinkerbelle lab.
 
 The following resources are good starts on how to stream video: 
 * [OpenCV – Stream video to web browser/HTML page](https://pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/)
@@ -471,9 +471,9 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 **Looks like:**
 **We started out with this [initial prototype](https://drive.google.com/file/d/1oaXo3QvoKQwaQ03WDGpz5IlhfeEvjE5C/view?usp=sharing)**
 
-However, we immiditately ran into physical errors where the hoop wasn't able to stand up. So we created a funnel that would not only support the hoop but also guide the ball. This ended up not working though since the ball would get stuck in the funnel. 
+However, we immediately ran into physical errors where the hoop wasn't able to stand up. So we created a funnel that would not only support the hoop but also guide the ball. This ended up not working though since the ball would get stuck in the funnel. 
 
-So we redid the entire design by designing 3D printed hoops.
+So we redid the entire design by designing 3D-printed hoops.
 
 <img src="./Images/img8.png" width="400px" height="400px" /> 
 
@@ -484,7 +484,7 @@ That ended up making this.
 
 <img src="./Images/img2.png" width="400px" height="400px"/>
 
-We then redid the basketball hoop physical interface. 
+We then redid the basketball hoop's physical interface. 
 
 <img src="./Images/img3.png" width="400px" height="400px"/>
 
@@ -500,6 +500,6 @@ This was our final product.
 
 <img src="./Images/img7.png" width="400px" height="400px"/>
 
-In this prototype, we are using an OLED screen to display game instructions, and show the user a live point display, and a modifiable timer. We are also using an LED stick for 2 games to indicate whose turn it is. We use a rotary encoder by turning it to pick different games to play from the OLED screen display. We use the proximity sensor and the distance sensor on each hoop to measure whether a ball has made it through the hoop.  
+In this prototype, we are using an OLED screen to display game instructions and show the user a live point display, and a modifiable timer. We are also using an LED stick for 2 games to indicate whose turn it is. We use a rotary encoder by turning it to pick different games to play from the OLED screen display. We use the proximity sensor and the distance sensor on each hoop to measure whether a ball has made it through the hoop.  
 
 **Here's a recording of our [final interaction](https://drive.google.com/file/d/1Ph0qyhnytpZ1bpy8CmlznIPA5ZA2bH7j/view?usp=sharing)**

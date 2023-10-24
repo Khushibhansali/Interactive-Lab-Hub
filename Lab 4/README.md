@@ -400,7 +400,7 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
-For this part, we decided to make an entirely new project. It would look like a basketball court but in a fun, compact, and lightweight fashion. It would work with physical balls, hoops, sensors, and a court where balls thrown in baskets are rewarded with points or led colors in our case. The interaction would entail a multiplayer game where players can play an arcade game, a game of HORSE, and a knockout game. 
+**For this part, we decided to make an entirely new project. It would look like a basketball court but in a fun, compact, and lightweight fashion. It would work with physical balls, hoops, sensors, and a court where balls thrown in baskets are rewarded with points or led colors in our case. The interaction would entail a multiplayer game where players can play an arcade game, a game of HORSE, and a knockout game.**
 
 
 ### Part E (Optional)
@@ -473,15 +473,22 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 However, we immiditately ran into physical errors where the hoop wasn't able to stand up. So we created a funnel that would not only support the hoop but also guide the ball. This ended up not working though since the ball would get stuck in the funnel. 
 
 So we redid the entire design by designing 3D printed hoops.
-<img src="./Images/img8.png"/> 
+<img src="./Images/img8.png" width="400px" height="400px" /> 
 
 That ended up making this. 
+
 <img src="./Images/img1.png" width="400px" height="400px"/>
 <img src="./Images/img2.png" width="400px" height="400px"/>
 
 We then redid the basketball hoop physical interface. 
+
 <img src="./Images/img3.png" width="400px" height="400px"/>
 
+Here are some pictures of us building a portable, basketball court. 
 <img src="./Images/img4.png" width="400px" height="400px"/>
 <img src="./Images/img5.png" width="400px" height="400px"/>
 <img src="./Images/img6.png" width="400px" height="400px"/>
+
+This was our final product. 
+<img src="./Images/img7.png" width="400px" height="400px"/>
+

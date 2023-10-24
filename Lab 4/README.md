@@ -400,6 +400,9 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
+For this part, we decided to make an entirely new project. It would look like a basketball court but in a fun, compact, and lightweight fashion. It would work with physical balls, hoops, sensors, and a court where balls thrown in baskets are rewarded with points or led colors in our case. It would act like an arcade game, a game of HORSE, and a knockout game. 
+
+
 ### Part E (Optional)
 ### Servo Control with Joystick
 
@@ -465,3 +468,14 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+**Looks like:**
+**We started out with: https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/Lab%204/Images/lab4.1.MOV**
+However, we immiditately ran into physical errors where the hoop wasn't able to stand up. So we created a funnel that would not only support the hoop but also guide the ball. This ended up not working though since the ball would get stuck in the funnel. 
+
+So we redid the entire design by 3D printing the hoops.
+
+<img src="./Images/img1.png"/>
+
+We then 
+<img src="./Images/img2.png"/>
+<img src="./Images/img3.png"/>

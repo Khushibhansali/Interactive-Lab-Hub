@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 #-----------------------------------------------------------------------------
-# qwiic_proximity_ex1.py
+# qwiic_button_ex4.py
 #
-# Simple Example for the Qwiic Proximity Device
+# Simple Example for the Qwiic Button. Shows how to use he FIFO Queue on the Qwiic Button.
 #------------------------------------------------------------------------
 #
-# Written by  SparkFun Electronics, May 2019
+# Written by Priyanka Makin @ SparkFun Electronics, January 2021
 # 
 # This python library supports the SparkFun Electroncis qwiic 
 # qwiic sensor/board ecosystem on a Raspberry Pi (and compatable) single
@@ -36,37 +36,50 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 # SOFTWARE.
 #==================================================================================
-# Example 1
-#
-# - Setup the device
-# - Output the proximity value
+# Example 4
 
 from __future__ import print_function
-import qwiic_proximity
+import qwiic_button
 import time
 import sys
 
-def runExample():
+def run_example():
 
-	print("\nSparkFun Proximity Sensor VCN4040 Example 1\n")
-	oProx = qwiic_proximity.QwiicProximity()
+    print("\nSparkFun Qwiic Button Example 4")
+    my_button = qwiic_button.QwiicButton()
 
-	if oProx.connected == False:
-		print("The Qwiic Proximity device isn't connected to the system. Please check your connection", \
-			file=sys.stderr)
-		return
+    if my_button.begin() == False:
+        print("\nThe Qwiic Button isn't connected to the system. Please check your connection", \
+            file=sys.stderr)
+        return
+    
+    print("\nButton ready!")
 
-	oProx.begin()
+    while True:
+            
+        # If the queue of pressed events is not empty
+        if my_button.is_pressed_queue_empty() == False:
+            # Then print the time since the last and first button press
+            print("\n" + str(my_button.time_since_last_press() / 1000.0) + "s since he button was last pressed   ")
+            print(str(my_button.time_since_first_press() / 1000.0) +"s since the button was first pressed ")
+        # If the queue is empty
+        else: 
+            print("\nButton Pressed Queue is empty! ")
 
-	while True:
-		proxValue = oProx.get_proximity()
-		print("Proximity Value: %d" % proxValue)
-		time.sleep(0.1)
+        # If the queue of clicked events is not empty
+        if my_button.is_clicked_queue_empty() == False:
+            # Then print the time since the last and first button click
+            print("\n" + str(my_button.time_since_last_click() / 1000.0) + "s since the button was last clicked  ")
+            print(str(my_button.time_since_first_click() / 1000.0) + "s since the button was first clicked")
+        # If the queue is empty
+        else:
+            print("\nButton Clicked Queue is empty!")
 
+        time.sleep(0.02)    # Let's not hammer too hard on the I2C bus
 
 if __name__ == '__main__':
-	try:
-		runExample()
-	except (KeyboardInterrupt, SystemExit) as exErr:
-		print("\nEnding Example 1")
-		sys.exit(0)
+    try:
+        run_example()
+    except (KeyboardInterrupt, SystemExit) as exErr:
+        print("\nEnding Example 4")
+        sys.exit(0)

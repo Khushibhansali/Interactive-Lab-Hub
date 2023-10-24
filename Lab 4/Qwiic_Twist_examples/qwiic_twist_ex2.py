@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 #-----------------------------------------------------------------------------
-# qwiic_proximity_ex1.py
+# qwiic_twist_ex2.py
 #
-# Simple Example for the Qwiic Proximity Device
+# Simple Example for the Qwiic Twist Device
 #------------------------------------------------------------------------
 #
 # Written by  SparkFun Electronics, May 2019
@@ -36,37 +36,43 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 # SOFTWARE.
 #==================================================================================
-# Example 1
+# Example 2
 #
-# - Setup the device
-# - Output the proximity value
 
 from __future__ import print_function
-import qwiic_proximity
+import qwiic_twist
 import time
+import random
 import sys
 
 def runExample():
 
-	print("\nSparkFun Proximity Sensor VCN4040 Example 1\n")
-	oProx = qwiic_proximity.QwiicProximity()
+	print("\nSparkFun qwiic Twist   Example 2 - crazy colors\n")
+	myTwist = qwiic_twist.QwiicTwist()
 
-	if oProx.connected == False:
-		print("The Qwiic Proximity device isn't connected to the system. Please check your connection", \
+	if myTwist.connected == False:
+		print("The Qwiic twist device isn't connected to the system. Please check your connection", \
 			file=sys.stderr)
 		return
 
-	oProx.begin()
+	myTwist.begin()
 
+	myTwist.count = 0
 	while True:
-		proxValue = oProx.get_proximity()
-		print("Proximity Value: %d" % proxValue)
-		time.sleep(0.1)
 
+		print("Count: %d, Pressed: %s" % (myTwist.count, \
+			"YES" if myTwist.pressed else "NO", \
+			))
+
+		myTwist.set_color( random.randint(0,256), random.randint(0,256),random.randint(0,256))
+
+		time.sleep(.3)
 
 if __name__ == '__main__':
 	try:
 		runExample()
 	except (KeyboardInterrupt, SystemExit) as exErr:
-		print("\nEnding Example 1")
+		print("\nEnding Example 2 - Crazy Colors")
 		sys.exit(0)
+
+

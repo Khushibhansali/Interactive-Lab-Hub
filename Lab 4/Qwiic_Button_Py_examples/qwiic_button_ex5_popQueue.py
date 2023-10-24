@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 #-----------------------------------------------------------------------------
-# qwiic_proximity_ex1.py
+# qwiic_button_ex5.py
 #
-# Simple Example for the Qwiic Proximity Device
+# Simple Example for the Qwiic Button. Shows how to use he FIFO Queue on the Qwiic Button.
 #------------------------------------------------------------------------
 #
-# Written by  SparkFun Electronics, May 2019
+# Written by Priyanka Makin @ SparkFun Electronics, January 2021
 # 
 # This python library supports the SparkFun Electroncis qwiic 
 # qwiic sensor/board ecosystem on a Raspberry Pi (and compatable) single
@@ -36,37 +36,43 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 # SOFTWARE.
 #==================================================================================
-# Example 1
-#
-# - Setup the device
-# - Output the proximity value
+# Example 5
 
 from __future__ import print_function
-import qwiic_proximity
+import qwiic_button
 import time
 import sys
 
-def runExample():
+def run_example():
 
-	print("\nSparkFun Proximity Sensor VCN4040 Example 1\n")
-	oProx = qwiic_proximity.QwiicProximity()
+    print("\nSparkFun Qwiic Button Example 5")
+    my_button = qwiic_button.QwiicButton()
 
-	if oProx.connected == False:
-		print("The Qwiic Proximity device isn't connected to the system. Please check your connection", \
-			file=sys.stderr)
-		return
+    if my_button.begin() == False:
+        print("\nThe Qwiic Button isn't connected to the system. Please check your connection", \
+            file=sys.stderr)
+        return
+    
+    print("\nButton ready!")
 
-	oProx.begin()
+    while True:
+        
+        print("\nType 'p' to pop a value from the pressed queue.")
+        val = raw_input("Type 'c' to pop a value from the clicked queue: ")
+        # If the character is c or C, then pop a value off of the clicked queue
+        if val == "c" or val == "C":
+            print("\nPopped Clicked Queue! The first value of clicked queue was: ")
+            print(str(my_button.pop_clicked_queue() / 1000.0))
+        # If the character is p or P, then pop a value off of the pressed queue
+        if val == "p" or val == "P":
+            print("\nPopped Pressed Queue!")
+            print(str(my_button.pop_clicked_queue() / 1000.0))
 
-	while True:
-		proxValue = oProx.get_proximity()
-		print("Proximity Value: %d" % proxValue)
-		time.sleep(0.1)
-
+        time.sleep(0.02)    # Let's not hammer too hard on the I2C bus
 
 if __name__ == '__main__':
-	try:
-		runExample()
-	except (KeyboardInterrupt, SystemExit) as exErr:
-		print("\nEnding Example 1")
-		sys.exit(0)
+    try:
+        run_example()
+    except (KeyboardInterrupt, SystemExit) as exErr:
+        print("\nEnding Example 5")
+        sys.exit(0)

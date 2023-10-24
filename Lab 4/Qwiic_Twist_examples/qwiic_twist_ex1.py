@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 #-----------------------------------------------------------------------------
-# qwiic_proximity_ex1.py
+# qwiic_twist_ex1.py
 #
-# Simple Example for the Qwiic Proximity Device
+# Simple Example for the Qwiic Twist Device
 #------------------------------------------------------------------------
 #
 # Written by  SparkFun Electronics, May 2019
@@ -38,31 +38,34 @@
 #==================================================================================
 # Example 1
 #
-# - Setup the device
-# - Output the proximity value
 
 from __future__ import print_function
-import qwiic_proximity
+import qwiic_twist
 import time
 import sys
 
 def runExample():
 
-	print("\nSparkFun Proximity Sensor VCN4040 Example 1\n")
-	oProx = qwiic_proximity.QwiicProximity()
+	print("\nSparkFun qwiic Twist   Example 1\n")
+	myTwist = qwiic_twist.QwiicTwist()
 
-	if oProx.connected == False:
-		print("The Qwiic Proximity device isn't connected to the system. Please check your connection", \
+	if myTwist.connected == False:
+		print("The Qwiic twist device isn't connected to the system. Please check your connection", \
 			file=sys.stderr)
 		return
 
-	oProx.begin()
+	myTwist.begin()
+
+	# Set the knob color to pink
+	myTwist.set_color(100, 10, 50)
 
 	while True:
-		proxValue = oProx.get_proximity()
-		print("Proximity Value: %d" % proxValue)
-		time.sleep(0.1)
 
+		print("Count: %d, Pressed: %s" % (myTwist.count, \
+			"YES" if myTwist.pressed else "NO", \
+			))
+
+		time.sleep(.3)
 
 if __name__ == '__main__':
 	try:
@@ -70,3 +73,5 @@ if __name__ == '__main__':
 	except (KeyboardInterrupt, SystemExit) as exErr:
 		print("\nEnding Example 1")
 		sys.exit(0)
+
+

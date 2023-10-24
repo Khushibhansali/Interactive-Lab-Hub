@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 #-----------------------------------------------------------------------------
-# qwiic_proximity_ex1.py
+# qwiic_button_ex3.py
 #
-# Simple Example for the Qwiic Proximity Device
+# Simple Example for the Qwiic Button. Checks whether the button is pressed and
+# and the LED pulses if it is.
 #------------------------------------------------------------------------
 #
-# Written by  SparkFun Electronics, May 2019
+# Written by Priyanka Makin @ SparkFun Electronics, January 2021
 # 
 # This python library supports the SparkFun Electroncis qwiic 
 # qwiic sensor/board ecosystem on a Raspberry Pi (and compatable) single
@@ -36,37 +37,47 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 # SOFTWARE.
 #==================================================================================
-# Example 1
-#
-# - Setup the device
-# - Output the proximity value
+# Example 3
 
 from __future__ import print_function
-import qwiic_proximity
+import qwiic_button
 import time
 import sys
 
-def runExample():
+brightness = 250    # The maximum brightness of the pulsing LED. Can be between 0 and 255
+cycle_time = 1000    # The total time for the pulse to take. Set to a bigger number for a slower pulse or a smaller number for a faster pulse
+off_time = 200       # The total time to stay off between pulses. Set to 0 to be pulsing continuously.
 
-	print("\nSparkFun Proximity Sensor VCN4040 Example 1\n")
-	oProx = qwiic_proximity.QwiicProximity()
+def run_example():
 
-	if oProx.connected == False:
-		print("The Qwiic Proximity device isn't connected to the system. Please check your connection", \
-			file=sys.stderr)
-		return
+    print("\nSparkFun Qwiic Button Example 3")
+    my_button = qwiic_button.QwiicButton()
 
-	oProx.begin()
+    if my_button.begin() == False:
+        print("\nThe Qwiic Button isn't connected to the system. Please check your connection", \
+            file=sys.stderr)
+        return
+    
+    print("\nButton ready!")
 
-	while True:
-		proxValue = oProx.get_proximity()
-		print("Proximity Value: %d" % proxValue)
-		time.sleep(0.1)
+    my_button.LED_off()
 
+    while True:
+        
+        if my_button.is_button_pressed() == True:
+
+            print("\nThe button is pressed!")
+            my_button.LED_config(brightness, cycle_time, off_time)
+        
+        else:
+            print("\nThe button is not pressed.")
+            my_button.LED_off()
+        
+        time.sleep(0.02)    # Let's not hammer too hard on the I2C bus
 
 if __name__ == '__main__':
-	try:
-		runExample()
-	except (KeyboardInterrupt, SystemExit) as exErr:
-		print("\nEnding Example 1")
-		sys.exit(0)
+    try:
+        run_example()
+    except (KeyboardInterrupt, SystemExit) as exErr:
+        print("\nEnding Example 3")
+        sys.exit(0)

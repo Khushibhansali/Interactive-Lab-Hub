@@ -1,19 +1,18 @@
-#!/usr/bin/env python
-#-----------------------------------------------------------------------------
-# qwiic_proximity_ex1.py
+# !/usr/bin/env python
+# ---------------------------------------------------------------------------------
+# qwiic_led_stick_ex1_blink.py
 #
-# Simple Example for the Qwiic Proximity Device
-#------------------------------------------------------------------------
+# This example blinks the entire LED stick.
+# --------------------------------------------------------------------------------
 #
-# Written by  SparkFun Electronics, May 2019
+# Written by Priyanka Makin @ SparkFun Electronics, June 2021
 # 
-# This python library supports the SparkFun Electroncis qwiic 
-# qwiic sensor/board ecosystem on a Raspberry Pi (and compatable) single
-# board computers. 
+# This python library supports the SpakrFun Electronics qwiic sensor/
+# board ecosystem on a Raspberry Pi (and compatible) board computers.
 #
 # More information on qwiic is at https://www.sparkfun.com/qwiic
 #
-# Do you like this library? Help support SparkFun. Buy a board!
+# Do you like this library? Help support SparkFun by buying a board!
 #
 #==================================================================================
 # Copyright (c) 2019 SparkFun Electronics
@@ -37,36 +36,37 @@
 # SOFTWARE.
 #==================================================================================
 # Example 1
-#
-# - Setup the device
-# - Output the proximity value
 
 from __future__ import print_function
-import qwiic_proximity
+import qwiic_led_stick
 import time
 import sys
 
-def runExample():
+def run_example():
 
-	print("\nSparkFun Proximity Sensor VCN4040 Example 1\n")
-	oProx = qwiic_proximity.QwiicProximity()
+    print("\nSparkFun Qwiic LED Stick Example 1")
+    my_stick = qwiic_led_stick.QwiicLEDStick()
 
-	if oProx.connected == False:
-		print("The Qwiic Proximity device isn't connected to the system. Please check your connection", \
-			file=sys.stderr)
-		return
+    if my_stick.begin() == False:
+        print("\nThe Qwiic LED Stick isn't connected to the sytsem. Please check your connection", \
+            file=sys.stderr)
+        return
+    print("\nLED Stick ready!")
+    
+    my_stick.set_all_LED_brightness(15)
 
-	oProx.begin()
-
-	while True:
-		proxValue = oProx.get_proximity()
-		print("Proximity Value: %d" % proxValue)
-		time.sleep(0.1)
-
+    while True:
+        
+        # Turn on all the LEDs to white
+        my_stick.set_all_LED_color(50, 50, 50)
+        time.sleep(1)
+        # Turn off all LEDs
+        my_stick.LED_off()
+        time.sleep(1)
 
 if __name__ == '__main__':
-	try:
-		runExample()
-	except (KeyboardInterrupt, SystemExit) as exErr:
-		print("\nEnding Example 1")
-		sys.exit(0)
+    try:
+        run_example()
+    except (KeyboardInterrupt, SystemExit) as exErr:
+        print("\nEnding Example 1")
+        sys.exit(0)

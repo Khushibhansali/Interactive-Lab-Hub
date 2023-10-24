@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 #-----------------------------------------------------------------------------
-# qwiic_proximity_ex1.py
+# qwiic_button_ex1.py
 #
-# Simple Example for the Qwiic Proximity Device
+# Simple Example for the Qwiic Button. Checks whether the button is pressed and
+# then prints its status.
 #------------------------------------------------------------------------
 #
-# Written by  SparkFun Electronics, May 2019
+# Written by Priyanka Makin @ SparkFun Electronics, January 2021
 # 
 # This python library supports the SparkFun Electroncis qwiic 
 # qwiic sensor/board ecosystem on a Raspberry Pi (and compatable) single
@@ -37,36 +38,36 @@
 # SOFTWARE.
 #==================================================================================
 # Example 1
-#
-# - Setup the device
-# - Output the proximity value
 
 from __future__ import print_function
-import qwiic_proximity
+import qwiic_button 
 import time
 import sys
 
-def runExample():
+def run_example():
 
-	print("\nSparkFun Proximity Sensor VCN4040 Example 1\n")
-	oProx = qwiic_proximity.QwiicProximity()
+    print("\nSparkFun Qwiic Button Example 1")
+    my_button = qwiic_button.QwiicButton()
 
-	if oProx.connected == False:
-		print("The Qwiic Proximity device isn't connected to the system. Please check your connection", \
-			file=sys.stderr)
-		return
+    if my_button.begin() == False:
+        print("\nThe Qwiic Button isn't connected to the system. Please check your connection", \
+            file=sys.stderr)
+        return
+    print("\nButton ready!")
+    
+    while True:   
+        
+        if my_button.is_button_pressed() == True:
+            print("\nThe button is pressed!")
 
-	oProx.begin()
-
-	while True:
-		proxValue = oProx.get_proximity()
-		print("Proximity Value: %d" % proxValue)
-		time.sleep(0.1)
-
+        else:    
+            print("\nThe button is not pressed!")
+            
+        time.sleep(0.02)
 
 if __name__ == '__main__':
-	try:
-		runExample()
-	except (KeyboardInterrupt, SystemExit) as exErr:
-		print("\nEnding Example 1")
-		sys.exit(0)
+    try:
+        run_example()
+    except (KeyboardInterrupt, SystemExit) as exErr:
+        print("\nEnding Example 1")
+        sys.exit(0)

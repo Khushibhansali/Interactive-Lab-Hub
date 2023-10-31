@@ -136,15 +136,34 @@ In an earlier version of this class students experimented with foundational comp
 * This can be as simple as the boat detector showen in a previous lecture from Nikolas Matelaro.
 * Try out different interaction outputs and inputs.
 
+  **I think I want to use the HandPose model for ASL (American Sign Language) hand poses. The model can classify gestures to allow deaf or hard-of-hearing individuals to use ASL with individuals who are not proficient in ASL. Interaction would be first prototyped to work on systems such as Zoom or Google Meet (i.e., video calls).**
+
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+
+
+Model Integration: Implement the HandPose model into video call platforms like Zoom or Google Meet, allowing real-time hand gesture recognition during video conversations.
+
+Gesture Classification: Experiment with the model's ability to accurately classify various ASL hand gestures. Ensure it covers a comprehensive set of ASL signs for effective communication.
+
+User-Friendly Interface: Design an intuitive user interface that seamlessly integrates with video call platforms, providing users with easy access to hand gesture recognition features. Consider a minimalistic overlay to avoid distractions.
+
+Compatibility Testing: Conduct extensive testing to ensure the HandPose model works seamlessly across different devices, operating systems, and browsers commonly used for video calls.
+
+User Training: Develop a user-friendly guide or tutorial to educate users on how to use and make the most of the ASL hand gesture recognition feature. Consider incorporating interactive elements for a more engaging learning experience.
+
+Accessibility Features: Explore additional accessibility features, such as visual cues or subtitles, to enhance communication between deaf or hard-of-hearing users and those not proficient in ASL.
+
+Privacy and Security: Implement robust privacy measures to safeguard user data and ensure secure communication. Address any potential concerns related to the storage and processing of video call content.
+
+User Feedback and Iteration: Gather feedback from users, especially from the deaf or hard-of-hearing community, to continuously improve the model's accuracy and the overall user experience. Use an iterative development approach based on user input.
 
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
+1. When does it what it is supposed to do? 
 1. When does it fail?
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
@@ -154,6 +173,24 @@ For example:
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+
+When does it what it is supposed to do? 
+The model performs effectively when presented with clear and well-defined hand gestures commonly used in ASL.
+
+When does it fail?
+Failures may occur in low-light conditions, reducing the model's ability to accurately detect and classify hand poses.
+Occlusion of hands or rapid, complex gestures may lead to misclassifications or failures.
+
+When it fails, why does it fail?
+Lack of lighting impacts the model's ability to identify subtle hand movements and poses.
+Occlusion disrupts the visibility of certain parts of the hand, leading to incomplete data for classification.
+   
+Based on the behavior you have seen, what other scenarios could cause problems?
+Variability in hand sizes and shapes may pose challenges, as the model may not generalize well across diverse user demographics.
+Background clutter or busy environments may introduce noise, affecting the model's accuracy.
+
+
 
 ### Part D
 ### Characterize your own Observant system
@@ -167,6 +204,38 @@ During the lecture, we mentioned questions to help characterize a material:
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
+
+- **What can you use ASL HandPose for?**
+  - ASL HandPose can be used for real-time recognition and interpretation of American Sign Language (ASL) hand gestures during video calls.
+  - Facilitates communication for deaf or hard-of-hearing individuals, allowing them to express themselves using ASL with those who may not be proficient in the language.
+
+- **What is a good environment for ASL HandPose?**
+  - Ideal for video call platforms like Zoom or Google Meet.
+  - Works well in well-lit environments to ensure accurate hand gesture recognition.
+  - Suited for situations where clear communication through ASL gestures is preferred or necessary.
+
+- **What is a bad environment for ASL HandPose?**
+  - Poorly lit environments may hinder accurate hand gesture recognition.
+  - Environments with significant visual clutter or distractions may impact the model's ability to interpret gestures accurately.
+  - Limited bandwidth or connectivity issues in the network may affect real-time performance.
+
+- **When will ASL HandPose break?**
+  - It may break in situations where there is low internet bandwidth, causing delays or interruptions in real-time hand gesture recognition.
+  - In scenarios where the user's hands are not clearly visible or are obstructed, the model may struggle to accurately interpret gestures.
+
+- **When it breaks, how will ASL HandPose break?**
+  - Breakage may result in misinterpretation or non-recognition of hand gestures, leading to communication gaps.
+  - Delays in processing, particularly in low-bandwidth conditions, may cause a lag in the real-time recognition of ASL gestures.
+
+- **What are other properties/behaviors of ASL HandPose?**
+  - **Adaptability:** The model should be adaptable to different devices, operating systems, and video call platforms.
+  - **Learning Capability:** The ability to improve accuracy over time through machine learning and user feedback.
+  - **Privacy Measures:** Implementation of privacy features to ensure secure handling of user data.
+
+- **How does ASL HandPose feel?**
+  - **Empowering:** Provides a sense of empowerment to individuals who rely on ASL for communication.
+  - **Inclusive:** Fosters inclusivity by bridging communication gaps between those proficient in ASL and those who are not.
+  - **Tech-Savvy:** Feels innovative and modern by incorporating cutting-edge technology to enhance communication accessibility.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 

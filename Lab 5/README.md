@@ -237,8 +237,10 @@ During the lecture, we mentioned questions to help characterize a material:
   - **Inclusive:** Fosters inclusivity by bridging communication gaps between those proficient in ASL and those who are not.
   - **Tech-Savvy:** Feels innovative and modern by incorporating cutting-edge technology to enhance communication accessibility.
 
-**\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+
+
+### Part 2
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 

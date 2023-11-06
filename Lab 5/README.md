@@ -438,12 +438,6 @@ How does the recyclable material identification system feel?
 > * Users might feel confident in using the system, knowing it simplifies their role in sorting waste materials correctly.
 
 
-### Part 2.
-
-Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***
-
 Our system successfully identifies and classifies an object as one of the 5 recycled materials (cardboard, glass, plastic, paper, and metal) or otherwise as trash.
 
 > * Successful Demo (Video Link): https://drive.google.com/file/d/1avhTgtqcQr5u4EQSTJDn--qpWvSgFQ5v/view?usp=share_link
@@ -463,9 +457,3 @@ Our system successfully identifies and classifies an object as one of the 5 recy
 > * Improve the recognition of the background so that the system displays only the count of all types of objects recycled or trashed but does not show a prediction for the background.
 > * Add a feature to count the number of items of each type recycled (e.g., using a distance sensor or proximity sensor in a similar fashion as we used in [Lab 4](https://github.com/wjr83/Interactive-Lab-Hub/edit/Fall2023/Lab%204/README.md).
 > > * Display these counts to the user by category type in hopes of promoting the mindset: reduce, reuse, recycle.
-
-### Part 2.
-
-Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***

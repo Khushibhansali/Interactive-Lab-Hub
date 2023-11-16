@@ -160,12 +160,19 @@ My partner and I designed an encrypted messaging system where I acted as the sen
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 Sender (Your Raspberry Pi)
+
   |
+  
   |--- [ Encryption ] --- [ MQTT Publish ] ---> MQTT Broker (farlab.infosci.cornell.edu)
+  
                                            |
+                                           
 Decrypter (Partner's Raspberry Pi)          |
+
   |                                        |
+  
   |--- [ MQTT Subscribe ] <--- [ Decryption ] <--- OLED Screen
+  
   
 -Sender (Your Raspberry Pi): Responsible for encrypting messages and publishing them to the MQTT broker.
 -MQTT Broker (farlab.infosci.cornell.edu): Acts as an intermediary for message communication between sender and decrypter.

@@ -1,6 +1,6 @@
 # Little Interactions Everywhere
 
-**NAMES OF COLLABORATORS HERE**: [William J. Reid](https://github.com/wjr83/Interactive-Lab-Hub/edit/Fall2023/Lab%206)
+**NAMES OF COLLABORATORS HERE**: [William J. Reid (NetID: wjr83)](https://github.com/wjr83/Interactive-Lab-Hub/tree/Fall2023/Lab%206)
 
 ## Prep
 

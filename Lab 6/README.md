@@ -153,15 +153,29 @@ yes I was able to do that.
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
-My partner and I created encrypted messenger. I acted as the sender of messages. The message would be encrypted then published to mqtt. Simutaneously, my partner ran a decrypter script that printed my message on an OLED screen for him to see. 
+
+My partner and I designed an encrypted messaging system where I acted as the sender of messages. The process involved encrypting messages and publishing them to an MQTT broker. Simultaneously, my partner ran a decrypter script on their Raspberry Pi, which received the encrypted messages, decrypted them, and displayed the original messages on an OLED screen.
+
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
-The oled is connected to pi. I have a pi too. 
+
+Sender (Your Raspberry Pi)
+  |
+  |--- [ Encryption ] --- [ MQTT Publish ] ---> MQTT Broker (farlab.infosci.cornell.edu)
+                                           |
+Decrypter (Partner's Raspberry Pi)          |
+  |                                        |
+  |--- [ MQTT Subscribe ] <--- [ Decryption ] <--- OLED Screen
+  
+-Sender (Your Raspberry Pi): Responsible for encrypting messages and publishing them to the MQTT broker.
+-MQTT Broker (farlab.infosci.cornell.edu): Acts as an intermediary for message communication between sender and decrypter.
+-Decrypter (Partner's Raspberry Pi): Subscribes to the MQTT broker to receive encrypted messages, decrypts them, and displays the original messages on the OLED screen.
+-OLED Screen: Displays the decrypted messages.
 
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
-If someone was in the wild, this would act as a notification message that doesn't let others see it. 
+For the user interface, the system acts as a secure notification system. As the sender, I interact with your Raspberry Pi to input messages. The OLED screen on my partner's Raspberry Pi serves as the output, displaying decrypted messages in a secure manner. Users interacting with the system in the wild would only see the OLED screen, which acts as a discreet notification display, preserving the confidentiality of the messages. The interaction is minimal, emphasizing the discreet nature of the encrypted messaging system.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 [Here is a demo!](https://drive.google.com/file/d/133k2zyBwb7Y0QzSkS0HCe5Ngb2HYswb_/view?usp=sharing)

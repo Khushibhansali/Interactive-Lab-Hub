@@ -161,12 +161,12 @@ My partner and I designed an encrypted messaging system where I acted as the sen
 
 Sender (Your Raspberry Pi)
 
-  |
-  
-  |--- [ Encryption ] --- [ MQTT Publish ] ---> MQTT Broker (farlab.infosci.cornell.edu)
-                                           |                                      
-Decrypter (Partner's Raspberry Pi)         |
-  |                                        |
+   |--- [ Encryption ] --- [ MQTT Publish ] ---> MQTT Broker (farlab.infosci.cornell.edu)
+
+                                                                              
+Decrypter (Partner's Raspberry Pi) 
+
+
   |--- [ MQTT Subscribe ] <--- [ Decryption ] <--- OLED Screen
   
   

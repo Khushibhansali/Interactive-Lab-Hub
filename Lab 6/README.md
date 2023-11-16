@@ -164,13 +164,9 @@ Sender (Your Raspberry Pi)
   |
   
   |--- [ Encryption ] --- [ MQTT Publish ] ---> MQTT Broker (farlab.infosci.cornell.edu)
-  
-                                           |
-                                           
-Decrypter (Partner's Raspberry Pi)          |
-
+                                           |                                      
+Decrypter (Partner's Raspberry Pi)         |
   |                                        |
-  
   |--- [ MQTT Subscribe ] <--- [ Decryption ] <--- OLED Screen
   
   

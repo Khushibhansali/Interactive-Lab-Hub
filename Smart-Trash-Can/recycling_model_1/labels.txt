@@ -1,0 +1,11 @@
+0 Background
+1 Glass
+2 Metal
+3 Banana
+4 Orange
+5 Tomato
+6 Avocado
+7 Plastic_Bottle
+8 Plastic_Container
+9 Paper
+10 Cardboard

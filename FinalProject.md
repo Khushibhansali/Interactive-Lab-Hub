@@ -2,7 +2,7 @@
 
 Using the tools and techniques you learned in this class, design, prototype, and test an interactive device.
 
-#### COLLABORATOR: [William Reid (ID: wjr83)](https://github.com/wjr83/Interactive-Lab-Hub/tree/Fall2023/Smart-Trash-Can) 
+#### COLLABORATOR: [Khushi Bhansali (ID: kb737)](https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/FinalProject.md)
 
 #### Motivation for Project
 - A system to recognize recyclable objects from non-recyclable objects is motivated by several factors:
@@ -66,3 +66,4 @@ You can and are not required to work in teams. Be clear in documentation who con
 ## Examples
 
 [Here is a list of good final projects from previous classes.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects)
+

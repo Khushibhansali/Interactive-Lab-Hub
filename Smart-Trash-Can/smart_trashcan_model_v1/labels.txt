@@ -1,0 +1,7 @@
+0 background
+1 paper
+2 cardboard
+3 trash
+4 plastic
+5 metal
+6 glass

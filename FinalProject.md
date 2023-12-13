@@ -2,7 +2,7 @@
 
 Using the tools and techniques you learned in this class, design, prototype, and test an interactive device.
 
-#### COLLABORATOR: [Khushi Bhansali (ID: kb737)](https://github.com/Khushibhansali/Interactive-Lab-Hub/blob/Fall2023/FinalProject.md)
+#### COLLABORATOR: [William Reid (ID: wjr83)](https://github.com/wjr83/Interactive-Lab-Hub/blob/Fall2023/FinalProject.md)
 
 #### Motivation for Project
 - A system to recognize recyclable objects from non-recyclable objects is motivated by several factors:

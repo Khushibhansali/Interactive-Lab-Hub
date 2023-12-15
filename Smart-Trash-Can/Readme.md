@@ -74,11 +74,17 @@ The Device:
 
 
 ### Challenges  & Fall-back Plan
-- A single continuous servo vs. multiple 180-degree servos for opening and closing the bins
+- A single continuous servo vs. multiple 180-degree servos for opening and closing the bins.
+- Bins may get full and user might not be able to dispose new trash -> Have distance sensors that notify building staff to empty them when full. Use MQTT to send notification.
+- User may trash many things at same time -> include some instructions or error monitoring to tell them to only trash one thing at a time.
+- Some trash items like coffee cups have multiple components -> tell user to trash each item seperately. 
 
 
 #### Physical Prototype
-Design Ideas:
+## Verplank Diagram
+![diagram](diagram.png)
+
+**Design Ideas:**
 
 |   IMG_4276   |   IMG_4275   |
 |--------------|--------------|
@@ -123,7 +129,7 @@ https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/a25f285a-4d48-4d5e
 
 [Click Here to see layout of bins after servo motors were attached ](https://drive.google.com/file/d/1siAHD9bbQhIL69RhRsb9UMw3Av2_2XOL/view?usp=sharing)
 
-## Cornell Tech Open Studio Demonstration in Maker Lab: Testing out code with motors for first time
+## Cornell Tech Open Studio Demonstration in Maker Lab: Testing out code with motors for first time (Functional Checkoff)
 
 ![us](us.png)
 
@@ -131,10 +137,11 @@ https://github.com/wjr83/Interactive-Lab-Hub/assets/143034234/a25f285a-4d48-4d5e
 
 [Click Here to see Cornell Tech Open Studio Demonstration in Maker Lab](https://drive.google.com/file/d/1i4RNBf1oDMCrO1Wy92NQy5Wi5kTPHf6M/view?usp=sharing)
 
-## Final Project Presentation and User Testing
+## Final Project Presentation
 [Click Here to see final project video](https://drive.google.com/file/d/1sphreEEsGq0kaO2dEE1w3JUFqz_g5T50/view?usp=sharing)
 
 
+## User Testing
 [Click Here to see final project user test](https://drive.google.com/file/d/1gLK1bqc0Nupb3r_tI-tR8ZrS1cnVEamW/view?usp=sharing)
 
 ## Reflections

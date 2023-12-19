@@ -3,7 +3,7 @@
 ## Project Plan
 Using the tools and techniques learned in this class, design, prototype, and test an interactive device that can distinguish between recyclable objects (paper, cardboard, plastic, glass, metal), trash, and batteries. 
 
-#### COLLABORATOR: [Khushi Bhansali (ID: kb737)](https://github.com/Khushibhansali/Interactive-Lab-Hub/tree/Fall2023/Smart-Trash-Can)
+#### COLLABORATOR: [William Reid (ID: wjr83)](https://github.com/wjr83/Interactive-Lab-Hub/edit/Fall2023/Smart-Trash-Can/Readme.md)
 
 ### Big Idea & Motivation for Project & Objective
 - A system to recognize recyclable objects from non-recyclable objects is motivated by several factors:
